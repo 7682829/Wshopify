@@ -65,8 +65,12 @@ const sortProduct = () => {
 }
 
   useEffect(() => {
-    applyFilter()
+    applyFilter();
   }, [category,subCategory]);
+
+  useEffect(() => {
+    sortProduct();
+  }, [sortType]);
   
 
   return (
@@ -125,7 +129,7 @@ const sortProduct = () => {
           <Title text1="All" text2="Collections" />
           
           {/* Sorting */}
-          <select className='border-2 border-gray-300 text-sm px-2'>
+          <select onChange={(e)=>setSortType(e.target.value)} className='border-2 border-gray-300 text-sm px-2'>
             <option value="relevant">Sort by: Relevant</option>
             <option value="low-high">Sort by: Low-High</option>
             <option value="high-low">Sort by: High-Low</option>
