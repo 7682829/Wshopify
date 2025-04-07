@@ -72,9 +72,9 @@ const Collection = () => {
           
           {/* Sorting */}
           <select className='border-2 border-gray-300 text-sm px-2'>
-            <option value="relevant">Sort by: 678</option>
-            <option value="low-high">Sort by: 334</option>
-            <option value="high-low">Sort by: 898</option>
+            <option value="relevant">Sort by: relevant</option>
+            <option value="low-high">Sort by: low-high</option>
+            <option value="high-low">Sort by: high-low</option>
           </select>
         </div>
 
