@@ -4,6 +4,8 @@ import Cart from './Cart'
 import CartTotal from '../components/CartTotal'
 import { assets } from '../assets/assets/frontend_assets/assets'
 import { ShopContext } from '../context/ShopContext'
+import axios from 'axios'
+import { toast } from 'react-toastify'
 
 const PlaceOrder = () => {
   const [method,setMethod] = useState('cod');
@@ -42,10 +44,33 @@ const PlaceOrder = () => {
         }
       }
 
-      console.log(orderItems);
+      let orderData= {
+        address: formData,
+        items: orderItems,
+        amount:getCartAmount()+ delivery_fee
+      }
+
+      switch (method){
+        //API calls for cod
+        case 'cod':
+          
+          const response = await axios.post(backendUrl +  '/api/order/place',orderData,{headers:{token}})
+          
+          if (response.data.success){
+            setCartItems({}) 
+            navigate('/orders')
+          } else {
+            toast.error(response.data.message)
+          }
+          break;
+
+        default:
+          break; 
+      }
       
     } catch (error) {
-      
+      console.log(error)
+      toast.error(error.message)
     }
   }
 
