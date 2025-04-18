@@ -102,7 +102,7 @@ const PlaceOrder = () => {
 
           const responseRazorpay = await axios.post(backendUrl + '/api/order/razorpay', orderData, {headers:{token}})
           if (responseRazorpay.data.success) {
-            console.log(responseRazorpay.data.order)
+            initPay(responseRazorpay.data.order)
           }
 
 
