@@ -16,6 +16,7 @@ const ShopContextProvider = (props) => {
     const [products, setProducts] = useState([]); 
     const [token, setToken] = useState('');
     const navigate = useNavigate();
+    const [wishlistItems, setWishlistItems] = useState({});
 
     const addToCart = async (itemId, size) => {
 
@@ -144,14 +145,36 @@ const ShopContextProvider = (props) => {
         }
     },[])
 
+    const addToWishlist = (itemId) => {
+        setWishlistItems((prev) => ({
+            ...prev,
+            [itemId]: true
+        }));
+    };
+
+    const removeFromWishlist = (itemId) => {
+        setWishlistItems((prev) => {
+            const newItems = { ...prev };
+            delete newItems[itemId];
+            return newItems;
+        });
+    };
+
+    const isInWishlist = (itemId) => {
+        return wishlistItems[itemId] ? true : false;
+    };
+
+    const getWishlistCount = () => {
+        return Object.keys(wishlistItems).length;
+    }
 
     const value = { 
         products, currency, delivery_fee,
         search, setSearch, showSearch, setShowSearch,
         cartItems, addToCart,setCartItems, getCartCount, updateQuantity, getCartAmount, navigate, backendUrl,
-        setToken, token 
+        setToken, token, wishlistItems, addToWishlist, removeFromWishlist, isInWishlist, getWishlistCount
 
-    }
+    };
 
     return (
         <ShopContext.Provider value={value}>

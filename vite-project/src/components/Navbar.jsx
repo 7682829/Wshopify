@@ -5,7 +5,15 @@ import styles from './Navbar.module.css'
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
-  const {setShowSearch, getCartCount, navigate, token, setToken, setCartItems} = useContext(ShopContext);
+  const {
+    setShowSearch, 
+    getCartCount, 
+    navigate, 
+    token, 
+    setToken, 
+    setCartItems,
+    getWishlistCount
+  } = useContext(ShopContext);
 
   const logout = () => {
     navigate('/login')
@@ -46,9 +54,16 @@ const Navbar = () => {
         </Link>
 
         {/* Wishlist Icon */}
-        <svg className={styles.icon} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-          <path d="m12.75 20.66 6.184-7.098c2.677-2.884 2.559-6.506.754-8.705-.898-1.095-2.206-1.816-3.72-1.855-1.293-.034-2.652.43-3.963 1.442-1.315-1.012-2.678-1.476-3.973-1.442-1.515.04-2.825.76-3.724 1.855-1.806 2.201-1.915 5.823.772 8.706l6.183 7.097c.19.216.46.34.743.34a.985.985 0 0 0 .743-.34Z"/>
-        </svg>
+        <Link to='/wishlist' className="relative">
+          <svg className={styles.icon} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+            <path d="m12.75 20.66 6.184-7.098c2.677-2.884 2.559-6.506.754-8.705-.898-1.095-2.206-1.816-3.72-1.855-1.293-.034-2.652.43-3.963 1.442-1.315-1.012-2.678-1.476-3.973-1.442-1.515.04-2.825.76-3.724 1.855-1.806 2.201-1.915 5.823.772 8.706l6.183 7.097c.19.216.46.34.743.34a.985.985 0 0 0 .743-.34Z"/>
+          </svg>
+          {getWishlistCount() > 0 && (
+            <span className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-black text-white aspect-square rounded-full text-[8px]'>
+              {getWishlistCount()}
+            </span>
+          )}
+        </Link>
 
         {/* Profile Icon */}
         <div className="relative group">
