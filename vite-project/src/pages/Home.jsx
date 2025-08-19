@@ -1,11 +1,10 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import LatestCollection from '../components/LatestCollection'
 import BestSeller from '../components/BestSeller'
-import OurPolicy from '../components/OurPolicy'
 import NewsletterBox from '../components/NewsletterBox'
 import { TextParallaxContentExample } from "../components/TextParallaxContent";
 import BentoGridDemo from "../components/BentoGridDemo";
+import { TestimonialsSection } from '../components/TestimonialsSection';
 
 const Home = () => {
   return (
@@ -15,9 +14,10 @@ const Home = () => {
       <TextParallaxContentExample />
       <br />
       <BentoGridDemo />
-      <LatestCollection/>
       <BestSeller/>
-      <OurPolicy/>
+      <div className="py-16">
+        <TestimonialsSection />
+      </div>
       <NewsletterBox/>
     </div>
   )
