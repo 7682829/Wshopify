@@ -1,13 +1,18 @@
-import { cn } from "../../lib/utils"
+import React from 'react';
+import { cn } from "../../lib/utils";
 
-export function Card({ className, ...props }) {
+const Card = ({ className, children, ...props }) => {
   return (
     <div
       className={cn(
-        "rounded-xl border bg-card text-card-foreground shadow",
+        "bg-white rounded-lg shadow-sm border border-neutral-200 p-6",
         className
       )}
       {...props}
-    />
-  )
-}
+    >
+      {children}
+    </div>
+  );
+};
+
+export { Card };
