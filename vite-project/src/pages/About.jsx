@@ -1,27 +1,27 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Award, Users, Heart, Globe } from 'lucide-react';
+import { FaAward, FaUsers, FaHeart, FaGlobe } from 'react-icons/fa';
 import { Card } from '../components/ui/card';
 
 export default function About() {
   const values = [
     {
-      icon: Heart,
+      icon: FaHeart,
       title: 'Passion for Excellence',
       description: 'We strive for excellence in every aspect of our service, ensuring the highest quality products and customer experience.'
     },
     {
-      icon: Globe,
+      icon: FaGlobe,
       title: 'Global Accessibility',
       description: 'Making luxury fashion accessible worldwide with efficient shipping and localized customer support.'
     },
     {
-      icon: Award,
+      icon: FaAward,
       title: 'Premium Quality',
       description: 'Curating only the finest products from renowned brands, ensuring authenticity and superior craftsmanship.'
     },
     {
-      icon: Users,
+      icon: FaUsers,
       title: 'Community First',
       description: 'Building a community of fashion enthusiasts who share our passion for style and quality.'
     }
