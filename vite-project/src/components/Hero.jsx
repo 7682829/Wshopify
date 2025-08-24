@@ -3,31 +3,31 @@ import styles from './Hero.module.css';
 
 const sliderData = [
   {
-    image: '/src/assets/assets/frontend_assets/hero1.jpg',
+    image: '/src/assets/assets/new_frontend_assets/hero1.jpg',
     subtitle: "design",
     title: "Slider 01",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex."
   },
   {
-    image: '/src/assets/assets/frontend_assets/hero2.jpg',
+    image: '/src/assets/assets/new_frontend_assets/hero2.jpg',
     subtitle: "design",
     title: "Slider 02",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex."
   },
   {
-    image: '/src/assets/assets/frontend_assets/hero3.jpg',
+    image: '/src/assets/assets/new_frontend_assets/hero3.jpg',
     subtitle: "design",
     title: "Slider 03",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex."
   },
   {
-    image: '/src/assets/assets/frontend_assets/hero4.jpg',
+    image: '/src/assets/assets/new_frontend_assets/hero4.jpg',
     subtitle: "design",
     title: "Slider 04",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex."
   },
   {
-    image: '/src/assets/assets/frontend_assets/hero5.jpg',
+    image: '/src/assets/assets/new_frontend_assets/hero5.jpg',
     subtitle: "design",
     title: "Slider 05",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex."

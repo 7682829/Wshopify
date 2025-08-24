@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";
 
+
 const IMG_PADDING = 12;
 
 const TextParallaxContent = ({ imgUrl, subheading, heading, children }) => {
@@ -109,7 +110,7 @@ export const TextParallaxContentExample = () => {
   return (
     <div className="bg-white">
       <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2671&auto=format&fit=crop"
+        imgUrl="/src/assets/assets/new_frontend_assets/par_trendy.jpg"
         subheading="LOREM"
         heading="Built for all of us."
       >
@@ -117,7 +118,7 @@ export const TextParallaxContentExample = () => {
       </TextParallaxContent>
 
       <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?q=80&w=2564&auto=format&fit=crop"
+        imgUrl="/src/assets/assets/new_frontend_assets/par_comfort.jpg"
         subheading="IPSUM"
         heading="Never compromise."
       >
@@ -125,7 +126,7 @@ export const TextParallaxContentExample = () => {
       </TextParallaxContent>
 
       <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1504610926078-a1611febcad3?q=80&w=2416&auto=format&fit=crop"
+        imgUrl="/src/assets/assets/new_frontend_assets/par_sustainable.jpg"
         subheading="Modern"
         heading="Dress for the best."
       >
