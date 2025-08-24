@@ -53,50 +53,50 @@ const BentoGrid = () => {
     {
       title: "Premium Collection",
       description: "Experience luxury in every step with our finest crafted footwear.",
-      backgroundImage: "/src/assets/assets/frontend_assets/hero_img.png",
+      backgroundImage: "/src/assets/assets/new_frontend_assets/bag6.jpg",
       className: "col-span-1 xl:col-span-2 row-span-1 min-h-[300px] xl:min-h-[400px]",
     },
     {
       title: "Casual Comfort",
       description: "Everyday essentials designed for ultimate comfort.",
-      backgroundImage: "/src/assets/assets/frontend_assets/hero_img.png",
+      backgroundImage: "/src/assets/assets/new_frontend_assets/grid2.jpg",
       className: "col-span-1 row-span-1 min-h-[300px]",
     },
     {
       title: "Sport Series",
       description: "Performance footwear for your active lifestyle.",
-      backgroundImage: "/src/assets/assets/frontend_assets/hero_img.png",
+      backgroundImage: "/src/assets/assets/new_frontend_assets/grid5.jpg",
       className: "col-span-1 row-span-1 min-h-[300px] xl:min-h-[250px]",
     },
     {
       title: "Limited Edition",
       description: "Exclusive designs for the fashion-forward.",
-      backgroundImage: "/src/assets/assets/frontend_assets/hero_img.png",
+      backgroundImage: "/src/assets/assets/new_frontend_assets/grid4.jpg",
       className: "col-span-1 xl:col-span-2 row-span-1 min-h-[300px] xl:min-h-[350px]",
     },
     {
       title: "Seasonal Collection",
       description: "The perfect footwear for every season.",
-      backgroundImage: "/src/assets/assets/frontend_assets/hero_img.png",
+      backgroundImage: "/src/assets/assets/new_frontend_assets/grid6.jpg",
       className: "col-span-1 row-span-2 min-h-[600px] xl:min-h-[700px]",
     },
     {
       title: "Designer Series",
       description: "Artistically crafted for the distinguished taste.",
-      backgroundImage: "/src/assets/assets/frontend_assets/hero_img.png",
+      backgroundImage: "/src/assets/assets/new_frontend_assets/grid7.jpg",
       className: "col-span-1 row-span-2 min-h-[600px] xl:min-h-[700px]",
     },
     // ✅ Added missing two boxes
     {
       title: "Artisan Craftsmanship",
       description: "Every piece is handcrafted by skilled artisans who take pride in their work.",
-      backgroundImage: "/src/assets/assets/frontend_assets/hero_img.png",
+        backgroundImage: "/src/assets/assets/new_frontend_assets/grid3.jpg",
       className: "col-span-1 row-span-1 min-h-[300px] xl:min-h-[340px]",
     },
     {
       title: "Exclusive Drop",
       description: "Unique designs available for a limited time only.",
-      backgroundImage: "/src/assets/assets/frontend_assets/hero_img.png",
+      backgroundImage: "/src/assets/assets/new_frontend_assets/grid8.jpg",
       className: "col-span-1 row-span-1 min-h-[300px] xl:min-h-[340px]",
     },
   ];
