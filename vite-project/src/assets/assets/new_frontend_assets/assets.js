@@ -55,6 +55,20 @@ import top31 from './top31.jpg';
 import top32 from './top32.jpg';
 import top33 from './top33.jpg';
 
+import bot1 from './bot1.jpg';
+import bot2 from './bot2.jpg';
+import bot3 from './bot3.jpg';
+import bot4 from './bot4.jpg';
+import bot5 from './bot5.jpg';
+import bot6 from './bot6.jpg';
+import bot7 from './bot7.jpg';
+import bot8 from './bot8.jpg';
+import bot9 from './bot9.jpg';
+import bot10 from './bot10.jpg';
+import bot11 from './bot11.jpg';
+import bot12 from './bot12.jpg';
+import bot13 from './bot13.jpg';
+import bot14 from './bot14.jpg';
 
 
 import glass1 from './glass1.jpg';
@@ -1293,8 +1307,191 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     tags: ["women sunglasses", "oversized sunglasses", "matte black sunglasses", "wrap frame sunglasses", "fashion accessories", "statement eyewear", "trendy sunglasses", "bold style sunglasses", "editorial fashion eyewear", "luxury look sunglasses"],
     date: 1717237745448,
     bestseller: true
-}
+},
 
+{
+    _id: "bot1",
+    name: "Men Corduroy Brown Blazer with Sunglasses",
+    description: "A stylish and modern corduroy brown blazer with a tailored fit, paired with sharp sunglasses. Perfect for both formal and semi-formal occasions. The timeless brown color and clean lines will elevate your wardrobe effortlessly.",
+    price: 120,
+    image: [bot1],
+    category: "Men",
+    subCategory: "Outerwear",
+    sizes: ["M", "L", "XL"],
+    date: 1716752345448,
+    bestseller: true,
+    tags: ["men blazer", "brown blazer", "corduroy blazer", "outerwear", "formal wear", "semi-formal", "mens fashion"]
+},
+{
+    _id: "bot2",
+    name: "Men Yellow Trench Coat with Beige Turtleneck",
+    description: "A vibrant yellow trench coat styled with a sleek beige turtleneck. This fashion-forward combination is perfect for colder months, offering both warmth and standout style. Designed for the modern man who values both comfort and fashion.",
+    price: 160,
+    image: [bot2],
+    category: "Men",
+    subCategory: "Outerwear",
+    sizes: ["M", "L", "XL"],
+    date: 1716752345556,
+    bestseller: true,
+    tags: ["men trench coat", "yellow coat", "beige turtleneck", "outerwear", "winter fashion", "mens fashion"]
+},
+{
+    _id: "bot3",
+    name: "Women Striped Navy Sweater with White Pleated Skirt",
+    description: "A chic and feminine combination featuring a navy striped sweater and a flowing white pleated skirt. This ensemble offers a sophisticated yet comfortable style, ideal for any casual outing or semi-formal event.",
+    price: 130,
+    image: [bot3],
+    category: "Women",
+    subCategory: "Topwear & Bottomwear",
+    sizes: ["S", "M", "L"],
+    date: 1716752345666,
+    bestseller: true,
+    tags: ["women sweater", "striped sweater", "navy sweater", "pleated skirt", "casual wear", "semi-formal", "women fashion"]
+},
+{
+    _id: "bot4",
+    name: "Unisex Neutral Tone Coat and White Sneakers",
+    description: "A minimalist neutral tone coat paired with sleek white sneakers. The perfect combination of comfort and elegance, this outfit is designed for easygoing style that transitions seamlessly from work to weekend.",
+    price: 150,
+    image: [bot4],
+    category: "Unisex",
+    subCategory: "Outerwear & Footwear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716752345777,
+    bestseller: true,
+    tags: ["unisex coat", "neutral coat", "white sneakers", "outerwear", "minimalist style", "unisex fashion"]
+},
+
+{
+    _id: "bot5",
+    name: "Men White T-shirt and Pleated Shorts Set",
+    description: "A modern and stylish set featuring a classic white T-shirt paired with pleated white shorts. The ultimate casual look for summer, offering both comfort and effortless style. Perfect for outdoor activities or laid-back days.",
+    price: 110,
+    image: [bot5],
+    category: "Men",
+    subCategory: "Topwear & Bottomwear",
+    sizes: ["M", "L", "XL"],
+    date: 1716852345448,
+    bestseller: true,
+    tags: ["men t-shirt", "white shorts", "casual wear", "summer outfit", "menswear", "men sets"]
+},
+{
+    _id: "bot6",
+    name: "Women White Pleated Pants with Black Tote Bag",
+    description: "Elevate your everyday look with these sophisticated white pleated pants paired with a black and beige tote bag. Ideal for casual office wear or weekend outings, this ensemble blends comfort with a chic, minimalist aesthetic.",
+    price: 140,
+    image: [bot6],
+    category: "Women",
+    subCategory: "Bottomwear & Accessories",
+    sizes: ["S", "M", "L"],
+    date: 1716852345556,
+    bestseller: true,
+    tags: ["women pleated pants", "white pants", "black tote bag", "women accessories", "casual wear", "chic style"]
+},
+{
+    _id: "bot7",
+    name: "Women Black Striped Trousers and Blazer Set",
+    description: "A sleek, polished ensemble featuring black pinstriped trousers with a matching blazer. This stylish set is perfect for both office and evening events, offering a sophisticated, tailored look with just the right touch of flair.",
+    price: 180,
+    image: [bot7],
+    category: "Women",
+    subCategory: "Topwear & Bottomwear",
+    sizes: ["S", "M", "L"],
+    date: 1716852345666,
+    bestseller: true,
+    tags: ["women blazer", "striped trousers", "pinstripe suit", "business attire", "women office wear", "formal wear"]
+},
+{
+    _id: "bot8",
+    name: "Women Black Maxi Skirt with White Top and Necklace",
+    description: "A timeless, elegant look featuring a black maxi skirt paired with a fitted white top. The outfit is completed with a sleek necklace, perfect for those who want to exude a polished and sophisticated vibe.",
+    price: 160,
+    image: [bot8],
+    category: "Women",
+    subCategory: "Bottomwear & Topwear",
+    sizes: ["S", "M", "L"],
+    date: 1716852345777,
+    bestseller: true,
+    tags: ["women maxi skirt", "black skirt", "white top", "elegant outfit", "chic women wear", "formal wear"]
+},
+{
+    _id: "bot9",
+    name: "Women Black Turtleneck Sweater and Black Pleated Pants",
+    description: "A sleek and sophisticated black turtleneck sweater paired with wide-legged black pleated pants. A versatile, elegant outfit perfect for both casual and formal settings. Add a touch of sophistication with this chic monochromatic look.",
+    price: 150,
+    image: [bot9],
+    category: "Women",
+    subCategory: "Topwear & Bottomwear",
+    sizes: ["M", "L", "XL"],
+    date: 1716852345888,
+    bestseller: true,
+    tags: ["women turtleneck", "black pleated pants", "monochrome outfit", "chic fashion", "winter fashion", "formal casual"]
+},
+{
+    _id: "bot10",
+    name: "Men Grey Cardigan with Black Pants",
+    description: "A stylish, ribbed grey cardigan paired with sleek black trousers. This versatile outfit is perfect for both casual and semi-formal occasions, offering a polished look that combines comfort and style effortlessly.",
+    price: 140,
+    image: [bot10],
+    category: "Men",
+    subCategory: "Outerwear & Bottomwear",
+    sizes: ["M", "L", "XL"],
+    date: 1716952345448,
+    bestseller: true,
+    tags: ["men cardigan", "grey cardigan", "black pants", "casual wear", "mens outfits", "semi-formal"]
+},
+{
+    _id: "bot11",
+    name: "Women Grey Knit Cardigan with Pinstriped Pants",
+    description: "A soft grey knit cardigan styled with pinstriped pants, this sophisticated outfit is perfect for a stylish day out or even a work event. The timeless grey pairs beautifully with classic pinstripes, adding elegance to your everyday wardrobe.",
+    price: 130,
+    image: [bot11],
+    category: "Women",
+    subCategory: "Outerwear & Bottomwear",
+    sizes: ["S", "M", "L"],
+    date: 1716952345556,
+    bestseller: true,
+    tags: ["women cardigan", "grey cardigan", "pinstriped pants", "chic fashion", "work wear", "women outfits"]
+},
+{
+    _id: "bot12",
+    name: "Men Green Cardigan with Beige Cargo Pants",
+    description: "A relaxed yet stylish green cardigan combined with beige cargo pants, ideal for casual outings. The cardigan offers a comfortable fit while the cargo pants add a trendy touch, making it a great ensemble for modern street style.",
+    price: 120,
+    image: [bot12],
+    category: "Men",
+    subCategory: "Outerwear & Bottomwear",
+    sizes: ["M", "L", "XL"],
+    date: 1716952345666,
+    bestseller: true,
+    tags: ["men cardigan", "green cardigan", "cargo pants", "street style", "casual wear", "mens fashion"]
+},
+{
+    _id: "bot13",
+    name: "Women Maroon Turtleneck with Light Gray Pants",
+    description: "This elegant maroon turtleneck sweater pairs perfectly with light blue pants, offering a sleek and sophisticated look. Ideal for both professional settings and casual outings, this outfit brings warmth and style together effortlessly.",
+    price: 150,
+    image: [bot13],
+    category: "Women",
+    subCategory: "Topwear & Bottomwear",
+    sizes: ["S", "M", "L"],
+    date: 1716952345777,
+    bestseller: true,
+    tags: ["women turtleneck", "maroon sweater", "light pants", "chic fashion", "women outfits", "winter fashion"]
+},
+{
+    _id: "bot14",
+    name: "Women Black Turtleneck with Black Pleated Skirt",
+    description: "A timeless and elegant combination of a black turtleneck sweater and a pleated black skirt. This sophisticated look is perfect for colder months, offering a chic silhouette that's perfect for both casual and formal occasions.",
+    price: 160,
+    image: [bot14],
+    category: "Women",
+    subCategory: "Topwear & Bottomwear",
+    sizes: ["S", "M", "L"],
+    date: 1716952345888,
+    bestseller: true,
+    tags: ["women turtleneck", "black skirt", "pleated skirt", "elegant outfit", "casual formal", "women fashion"]
+}
 
 
 ]
