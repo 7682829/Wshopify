@@ -21,17 +21,41 @@ import per10 from './per10.jpeg';
 import per11 from './per11.jpg';
 import per12 from './per12.jpg';
 
-import top1 from './top1.png'
-import top2 from './top2.png'
-import top3 from './top3.png'
-import top4 from './top4.png'
-import top5 from './top5.png'
-import top6 from './top6.png'
-import top7 from './top7.png'
-import top8 from './top8.png'
-import top9 from './top9.png'
-import top10 from './top10.png'
-import top11 from './top11.png'
+import top1 from './top1.jpg';
+import top2 from './top2.jpg';
+import top3 from './top3.jpg';
+import top4 from './top4.jpg';
+import top5 from './top5.jpg';
+import top6 from './top6.jpg';
+import top7 from './top7.jpg';
+import top8 from './top8.jpg';
+import top9 from './top9.jpg';
+import top10 from './top10.jpg';
+import top11 from './top11.jpg';
+import top12 from './top12.jpg';
+import top13 from './top13.jpg';
+import top14 from './top14.jpg';
+import top15 from './top15.jpg';
+import top16 from './top16.jpg';
+import top17 from './top17.jpg';
+import top18 from './top18.jpg';
+import top19 from './top19.jpg';
+import top20 from './top20.jpg';
+import top21 from './top21.jpg';
+import top22 from './top22.jpg';
+import top23 from './top23.jpg';
+import top24 from './top24.jpg';
+import top25 from './top25.jpg';
+import top26 from './top26.jpg';
+import top27 from './top27.jpg';
+import top28 from './top28.jpg';
+import top29 from './top29.jpg';
+import top30 from './top30.jpg';
+import top31 from './top31.jpg';
+import top32 from './top32.jpg';
+import top33 from './top33.jpg';
+
+
 
 import glass1 from './glass1.jpg';
 import glass2 from './glass2.jpg';
@@ -536,6 +560,294 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 },
 
 {
+    _id: "top13",
+    name: "Men Tailored Black Suit with Burgundy Shirt",
+    description: "A classic black tailored suit paired with a deep burgundy shirt. This refined combination is perfect for formal occasions, offering a sophisticated and polished look that never goes out of style. Perfect for weddings, business meetings, or upscale events.",
+    price: 320,
+    image: [top13],
+    category: "Men",
+    subCategory: "Topwear & Suits",
+    sizes: ["M", "L", "XL"],
+    date: 1717052345448,
+    bestseller: true,
+    tags: ["men suit", "black suit", "burgundy shirt", "formal wear", "business wear", "wedding outfit", "mens fashion"]
+},
+
+{
+    _id: "top14",
+    name: "Women Tennis Dress with Green Accent",
+    description: "A stylish, modern tennis dress featuring a sleek white design with green accents. Perfect for sports or a casual day out, this dress offers both comfort and style with its breathable fabric and flattering fit. Ideal for a tennis match or outdoor activities.",
+    price: 150,
+    image: [top14],
+    category: "Women",
+    subCategory: "Sportswear & Dresses",
+    sizes: ["S", "M", "L"],
+    date: 1716952345556,
+    bestseller: true,
+    tags: ["women tennis dress", "sportswear", "activewear", "casual dress", "women fashion", "outdoor wear"]
+},
+{
+    _id: "top15",
+    name: "Men Beige Silk Shirt for Summer",
+    description: "A luxurious beige silk shirt, perfect for the warmer months. Its lightweight and breathable fabric makes it ideal for summer parties, vacations, or evening gatherings. The smooth silk fabric ensures comfort and style throughout the day.",
+    price: 180,
+    image: [top15],
+    category: "Men",
+    subCategory: "Topwear",
+    sizes: ["M", "L", "XL"],
+    date: 1717052345556,
+    bestseller: true,
+    tags: ["men silk shirt", "beige shirt", "summer shirt", "luxury fashion", "casual wear", "mens fashion"]
+},
+{
+    _id: "top16",
+    name: "Men Plaid Blazer with Brown Turtleneck",
+    description: "A classic plaid blazer paired with a sleek brown turtleneck. This ensemble offers a perfect balance of sophistication and comfort, making it ideal for the fall season. Dress it up for a business meeting or wear it casually for a stylish weekend look.",
+    price: 250,
+    image: [top16],
+    category: "Men",
+    subCategory: "Blazers & Jackets",
+    sizes: ["S", "M", "L"],
+    date: 1716952345777,
+    bestseller: true,
+    tags: ["men blazer", "plaid blazer", "brown turtleneck", "outerwear", "fall fashion", "business casual", "mens fashion"]
+},
+{
+    _id: "top17",
+    name: "Women Olive Green Trench Coat with Silver Chain Necklace",
+    description: "A chic olive green trench coat paired with a bold silver chain necklace, combining practicality and elegance. This outfit is perfect for transitioning between seasons, keeping you stylish and warm. Ideal for a night out or a day in the city.",
+    price: 270,
+    image: [top17],
+    category: "Women",
+    subCategory: "Outerwear & Accessories",
+    sizes: ["S", "M", "L"],
+   date: 1716952345888,
+    bestseller: true,
+   tags: ["women trench coat", "olive coat", "outerwear", "chic fashion", "winter wear", "city style", "women fashion"]
+},
+
+{
+    _id: "top18",
+    name: "Women Beige Blazer and Turtleneck Set",
+    description: "A chic and elegant beige blazer paired with a matching beige turtleneck. This sophisticated outfit is perfect for office wear or a formal event, offering a refined and polished look. The neutral beige color adds timeless appeal to your wardrobe.",
+    price: 250,
+    image: [top18],
+    category: "Women",
+    subCategory: "Blazers & Outerwear",
+    sizes: ["S", "M", "L"],
+    date: 1717052345448,
+    bestseller: true,
+    tags: ["women blazer", "beige blazer", "beige turtleneck", "office wear", "formal wear", "women fashion"]
+},
+{
+    _id: "top19",
+    name: "Women Beige Blazer with White Ribbed Tank Top",
+    description: "This beige blazer is paired with a stylish white ribbed tank top, offering a versatile, smart-casual look. The blazer provides a sharp silhouette while the ribbed tank adds texture and comfort, ideal for both daytime and evening wear.",
+    price: 180,
+    image: [top19],
+    category: "Women",
+   subCategory: "Blazers & Topwear",
+    sizes: ["S", "M", "L"],
+    date: 1717052345556,
+    bestseller: true,
+    tags: ["women blazer", "beige blazer", "ribbed tank top", "smart casual", "chic fashion", "women fashion"]
+},
+{
+    _id: "top20",
+    name: "Men Mustard Yellow Zip Jacket",
+    description: "A stylish mustard yellow zip-up jacket, perfect for casual outings or as an activewear piece. This lightweight jacket offers both comfort and style with its clean lines and vibrant color, making it an ideal addition to any wardrobe.",
+    price: 120,
+    image: [top20],
+    category: "Men",
+    subCategory: "Outerwear",
+    sizes: ["M", "L", "XL"],
+    date: 1717052345666,
+    bestseller: true,
+    tags: ["men jacket", "zip jacket", "yellow jacket", "outerwear", "casual wear", "activewear", "mens fashion"]
+},   
+{
+    _id: "top21",
+    name: "Men Olive Green Zip-Up Jacket",
+    description: "An olive green zip-up jacket with a sporty yet stylish design. This jacket is perfect for layering in the colder months, offering both warmth and versatility. Its neutral olive color makes it a great match for various outfits, from casual to outdoor wear.",
+    price: 140,
+    image: [top21],
+    category: "Men",
+    subCategory: "Outerwear",
+    sizes: ["M", "L", "XL"],
+    date: 1717052345777,
+    bestseller: true,
+    tags: ["men jacket", "olive jacket", "zip-up jacket", "outerwear", "casual wear", "sportswear", "winter fashion"]
+    }, 
+{
+    _id: "top22",
+    name: "Women White V-neck Blouse",
+    description: "A lightweight white blouse with a flattering V-neckline, perfect for both casual and formal occasions. The elegant design and soft fabric make it a versatile addition to any wardrobe, offering timeless appeal with a modern twist.",
+    price: 130,
+    image: [top22],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes: ["S", "M", "L"],
+    date: 1717052345888,
+    bestseller: true,
+    tags: ["women blouse", "white blouse", "v-neck top", "chic women wear", "casual wear", "formal top", "women fashion"]
+},
+
+
+{
+    _id: "top23",
+    name: "Men White Bomber Jacket",
+    description: "Minimalist white bomber jacket with a clean zip-up front, ribbed collar, and sleek silhouette. Ideal for layering over casual or streetwear looks.",
+    price: 3499,
+    image: [top23],
+    category: "Men",
+    subCategory: "Topwear",
+    sizes: ["M", "L", "XL"],
+    tags: ["men jacket", "bomber jacket", "casual wear", "streetwear", "outerwear", "white jacket"],
+    date: 1717334785643,
+    bestseller: false
+},
+
+{
+    _id: "top24",
+    name: "Men Black Wool Overcoat",
+    description: "Classic black wool overcoat with a structured fit, designed to be worn over formal or semi-formal outfits. Perfect for winter elegance and office wear.",
+    price: 5999,
+    image: [top24],
+    category: "Men",
+    subCategory: "Topwear",
+    sizes: ["M", "L", "XL"],
+    tags: ["men coat", "wool overcoat", "formal wear", "winter wear", "outerwear", "black sweater"],
+    date: 1717334821165,
+    bestseller: true
+},
+
+{
+    _id: "top25",
+    name: "Men Green Turtleneck Sweater",
+    description: "Cozy knitted green turtleneck sweater with a soft texture and relaxed fit. A versatile winter essential for layering and casual outings.",
+    price: 2799,
+    image: [top25],
+    category: "Men",
+    subCategory: "Topwear",
+    sizes: ["S", "M", "L", "XL"],
+    tags: ["men sweater", "turtleneck sweater", "knitwear", "winter wear", "casual wear", "green sweater"],
+    date: 1717334859327,
+    bestseller: false
+},
+
+{
+    _id: "top26",
+    name: "Men Printed Suit Blazer",
+    description: "Bold patterned suit blazer with a tailored fit, combining modern elegance and a standout design. Great for parties, fashion events, and special occasions.",
+    price: 7499,
+    image: [top26],
+    category: "Men",
+    subCategory: "Topwear",
+    sizes: ["M", "L", "XL"],
+    tags: ["men blazer", "printed blazer", "party wear", "formal wear", "smart casual"],
+    date: 1717334897650,
+    bestseller: true
+},
+
+{
+    _id: "top27",
+    name: "Women Blue Floral Knit Sweater",
+    description: "Chic oversized blue knit sweater with floral patterns, styled for a cozy yet fashionable winter look. Perfect for layering with skirts or casual wear.",
+    price: 2999,
+    image: [top27],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes: ["S", "M", "L"],
+    tags: ["women sweater", "knitwear", "floral design", "casual wear", "winter wear", "blue sweater"],
+    date: 1717334933488,
+    bestseller: false
+},
+
+{
+    _id: "top28",
+    name: "Women Black Turtleneck Sweater",
+    description: "Elegant black knitted turtleneck sweater with a classic fit and versatile design. A timeless winter essential for casual and semi-formal looks.",
+    price: 2699,
+    image: [top28],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes: ["S", "M", "L"],
+    tags: ["women sweater", "turtleneck sweater", "knitwear", "winter wear", "classic style", "black sweater"],
+    date: 1717334972120,
+    bestseller: true
+},
+
+{
+    _id: "top29",
+    name: "Women White Sleeveless Mock-Neck Top",
+    description: "A sleeveless fitted white top with a mock-neck design. Clean, minimalist style that pairs well with tailored trousers or skirts. Perfect for smart-casual and elegant day looks.",
+    price: 1899,
+    image: [top29],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes: ["S", "M", "L"],
+    tags: ["women top", "sleeveless top", "mock neck", "minimal style", "casual wear"],
+    date: 1717334800110,
+    bestseller: false
+},
+
+{
+    _id: "top30",
+    name: "Women Black and White Striped Sweater",
+    description: "A black and white striped sweater with a relaxed fit. Styled casually with a flowing white skirt and sneakers, giving it a Parisian street-style vibe.",
+    price: 2499,
+    image: [top30],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes: ["S", "M", "L", "XL"],
+    tags: ["women sweater", "striped sweater", "knitwear", "casual wear", "street style"],
+    date: 1717334819221,
+    bestseller: true
+},
+
+{
+    _id: "top31",
+    name: "Women White Linen Relaxed Shirt",
+    description: "A relaxed-fit white linen shirt styled with a leopard print scarf. Lightweight and breathable, ideal for café looks or effortless chic styling.",
+    price: 2299,
+    image: [top31],
+    category: "Women",
+    subCategory: "Topwear",
+    sizes: ["S", "M", "L"],
+    tags: ["women shirt", "linen shirt", "white shirt", "casual wear", "classic style"],
+    date: 1717334832332,
+    bestseller: false
+},
+
+{
+    _id: "top32",
+    name: "Men White Knitted Sweater Vest",
+    description: "A white knitted sweater vest with green stripe accents, layered over a collared shirt. A modern preppy look that works for both casual and semi-formal occasions.",
+    price: 2599,
+    image: [top32],
+    category: "Men",
+    subCategory: "Topwear",
+    sizes: ["M", "L", "XL"],
+    tags: ["men vest", "sweater vest", "knitwear", "preppy style", "casual wear"],
+    date: 1717334851220,
+    bestseller: false
+},
+
+{
+    _id: "top33",
+    name: "Men Burgundy Wool Blazer",
+    description: "A structured burgundy wool blazer worn over a black turtleneck. Bold autumn-inspired outfit that blends sharp tailoring with cozy sophistication.",
+    price: 4499,
+    image: [top33],
+    category: "Men",
+    subCategory: "Topwear",
+    sizes: ["M", "L", "XL"],
+    tags:  ["men blazer", "wool blazer", "formal wear", "autumn fashion", "smart casual"],
+    date: 1717334875119,
+    bestseller: true
+},
+
+{
     _id: "shoe1",
     name: "Men Casual Sneakers with Retro Stripes",
     description: "Men's retro-style casual sneakers with multicolor stripes, lace-up front, and cushioned sole. Perfect for streetwear, travel, or everyday comfort.",
@@ -982,5 +1294,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     date: 1717237745448,
     bestseller: true
 }
+
+
 
 ]
