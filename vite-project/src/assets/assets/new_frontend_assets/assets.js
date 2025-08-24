@@ -319,7 +319,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     date: 1716634347448,
     bestseller: true,
     tags: ["perfume", "perfume bottles", "glass bottles", "fragrance collection", "gift set", "luxury", "elegant", "classic"]
-}
+},
 
 {
     _id: "per9",
@@ -334,7 +334,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     bestseller: true,
     tags: ["perfume", "women perfume", "amber scent", "square bottle", "classic design", "fragrance", "warm notes", "elegant", "feminine", "floral"]
 
-}
+},
 
 {
     _id: "per10",
@@ -349,7 +349,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     bestseller: false,
     tags: ["perfume", "unisex perfume", "minimalist", "modern", "fragrance", "clean aesthetic"]
 
-}
+},
 
 {
     _id: "per11",
@@ -364,7 +364,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     bestseller: true,
     tags: ["perfume", "citrus perfume", "orange", "fresh", "fruity fragrance", "fragrance", "summer scent", "bold", "tropical"]
 
-}
+},
 
 {
     _id: "per12",
