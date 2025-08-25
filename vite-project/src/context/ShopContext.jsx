@@ -18,33 +18,40 @@ const ShopContextProvider = (props) => {
     const navigate = useNavigate();
     const [wishlistItems, setWishlistItems] = useState({});
 
-    const addToCart = async (itemId, size) => {
+    const addToCart = async (itemId, size, subCategory) => {
 
-        if (!size) {
-            toast.error('Please Select Product Size ');
+        // Check if size is required for this subcategory
+        const sizeRequiredCategories = ['Topwear', 'Bottomwear'];
+        const isSizeRequired = sizeRequiredCategories.includes(subCategory);
+
+        if (isSizeRequired && !size) {
+            toast.error('Please Select Product Size');
             return;
         }
+
+        // If size is not required, set a default size
+        const finalSize = size || 'One Size';
 
         let cartData = structuredClone(cartItems);
 
         if (cartData[itemId]) {
-            if (cartData[itemId][size]) {
-                cartData[itemId][size]+=1 
+            if (cartData[itemId][finalSize]) {
+                cartData[itemId][finalSize]+=1 
             } 
             else{
-                cartData[itemId][size] = 1;
+                cartData[itemId][finalSize] = 1;
             }
         }
         else {
             cartData[itemId] = {};
-            cartData[itemId][size] = 1;
+            cartData[itemId][finalSize] = 1;
         }
         setCartItems(cartData);
 
         if (token) {
             try {
 
-                await axios.post(backendUrl + '/api/cart/add', {itemId, size}, {headers:{token}})
+                await axios.post(backendUrl + '/api/cart/add', {itemId, size: finalSize}, {headers:{token}})
                 
             } 
             catch (error) {
