@@ -181,8 +181,7 @@ export const products = [
     price: 1350,
     image: [pearl1],
     category: "Women",
-    subCategory: "Jewellery",
-    sizes: ["Free Size"],
+    subCategory: "Jewelry",
     date: 1716634345801,
     bestseller: true,
     tags: ["pearl", "necklace", "layered", "women", "statement", "back jewellery", "accessories", "jewellery"]
@@ -195,8 +194,7 @@ export const products = [
     price: 780,
     image: [pearl2, pearl2_a],
     category: "Women",
-    subCategory: "Jewellery",
-    sizes: ["Free Size"],
+    subCategory: "Jewelry",
     date: 1716634345843,
     bestseller: true,
     tags: ["pearl", "necklace", "choker", "women", "beachwear", "boho", "crystal", "accessories", "jewellery"]
@@ -209,8 +207,7 @@ export const products = [
     price: 990,
     image: [pearl3],
     category: "Women",
-    subCategory: "Jewellery",
-    sizes: ["Free Size"],
+    subCategory: "Jewelry",
     date: 1716634345885,
     bestseller: false,
     tags: ["pearl", "gold", "necklace", "layered", "women", "minimalist", "jewellery", "accessories"]
@@ -224,7 +221,6 @@ export const products = [
     image: [pearl5],
     category: "Women",
     subCategory: "Jewelry",
-    sizes: ["Free Size"],
     date: 1717256345448,
     bestseller: true,
     tags: ["women", "necklace", "heart charm", "jewelry", "blue crystal", "accessories", "jewellery"]
@@ -238,7 +234,6 @@ export const products = [
     image: [pearl6],
     category: "Women",
     subCategory: "Jewelry",
-    sizes: ["Free Size"],
     date: 1717356345448,
     bestseller: true,
     tags: ["women", "choker", "shell jewelry", "gold", "statement necklace", "beach style", "accessories", "jewellery"]
@@ -252,7 +247,6 @@ export const products = [
     image: [pearl7],
     category: "Women",
     subCategory: "Jewelry",
-    sizes: ["Free Size"],
     date: 1717456345448,
     bestseller: false,
     tags: ["women", "pendant", "amber crystal", "gold necklace", "elegant", "jewelry", "accessories", "jewellery"]
@@ -266,7 +260,6 @@ export const products = [
     image: [pearl8],
     category: "Women",
     subCategory: "Jewelry",
-    sizes: ["Free Size"],
     date: 1717556345448,
     bestseller: true,
     tags: ["women", "pearl", "jewelry set", "necklace", "luxury", "resort wear", "accessories", "jewellery"]
@@ -280,7 +273,6 @@ export const products = [
     image: [pearl9],
     category: "Women",
     subCategory: "Jewelry",
-    sizes: ["Free Size"],
     date: 1717656345448,
     bestseller: true,
     tags: ["women", "pearl jewelry", "shell", "statement piece", "accessories", "jewellery"]
@@ -292,9 +284,8 @@ export const products = [
     description: "A bold and sophisticated unisex fragrance housed in a jewel-like amber glass bottle. Notes of smoky spice and warm woods make this the perfect statement scent for evenings.",
     price: 1450,
     image: [per1],
-    category: "Fragrance",
-    subCategory: "Perfume",
-    sizes: ["50ml", "75ml"],
+    category: "Unisex",
+    subCategory: "Perfumes",
     date: 1716639355448,
     bestseller: true,
     tags: ["perfume", "unisex", "amber", "fragrance", "flame", "luxury scent"]
@@ -306,9 +297,8 @@ export const products = [
     description: "An elegant perfume encased with stunning golden and black ink swirls. Featuring warm amber, vetiver, and subtle hints of musk—perfect for both men and women.",
     price: 1199,
     image: [per2],
-    category: "Fragrance",
-    subCategory: "Perfume",
-    sizes: ["50ml", "100ml"],
+    category: "Uninex",
+    subCategory: "Perfumes",
     date: 1716639365448,
     bestseller: true,
     tags: ["perfume", "unisex", "lum", "warm", "amber", "fragrance"]
@@ -321,8 +311,7 @@ export const products = [
     price: 1350,
     image: [per3],
     category: "Women",
-    subCategory: "Fragrance",
-    sizes: ["30ml", "50ml", "100ml"],
+    subCategory: "Perfumes",
     date: 1716639375448,
     bestseller: true,
     tags: ["perfume", "women", "light", "fresh scent", "daytime fragrance", "fragrance"]
@@ -335,8 +324,7 @@ export const products = [
     price: 1250,
     image: [per4],
     category: "Women",
-    subCategory: "Fragrance",
-    sizes: ["50ml", "75ml"],
+    subCategory: "Perfumes",
     date: 1716639385448,
     bestseller: true,
     tags: ["perfume", "women", "summer", "tropical", "floral", "fig scent", "sunfig", "fragrance"]
@@ -348,9 +336,8 @@ export const products = [
     description: "Clean, crisp, and modern. These twin minimalist bottles feature a serene aquatic scent that combines sea salt, white amber, and driftwood. Ideal for daily freshness.",
     price: 1799,
     image: [per5],
-    category: "Fragrance",
-    subCategory: "Perfume",
-    sizes: ["60ml each"],
+    category: "Unisex",
+    subCategory: "Perfumes",
     date: 1716639395448,
     bestseller: true,
     tags: ["perfume", "unisex", "aqua", "fresh", "minimalist", "daily wear", "wave", "fragrance"]
@@ -362,9 +349,8 @@ export const products = [
     description: "A serene, floral-inspired perfume bottle with a sleek, rounded glass design. Perfectly balances simplicity and elegance, ideal for displaying your favorite scents or gifting in style.",
     price: 450,
     image: [per6],
-    category: "Beauty",
-    subCategory: "Perfume",
-    sizes: ["100ml", "150ml", "200ml"],
+    category: "Women",
+    subCategory: "Perfumes",
     date: 1716634345448,
     bestseller: true,
     tags: ["perfume", "perfume bottle", "minimalist", "floral", "gift", "glass bottle", "women fragrance", "fragrance", "elegant"]
@@ -376,9 +362,8 @@ name: "Luxury Blue Glass Perfume Bottle - Golden Cap Designer Scent",
 description: "A luxurious perfume bottle featuring bold blue glass and a gold engraved cap. This statement piece exudes sophistication and is perfect for collector and premium fragrance lovers.",
 price: 890,
 image: [per7],
-category: "Beauty",
-subCategory: "Perfume",
-sizes: ["75ml", "100ml"],
+category: "Women",
+subCategory: "Perfumes",
 date: 1716634346448,
 bestseller: true,
 tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glass perfume bottle", "premium", "gift", "statement"]
@@ -390,9 +375,8 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     description: "An elegant trio of premium glass perfume bottles. Includes varying spray types and sizes—ideal for luxury gifting or refined home decor.",
     price: 1299,
     image: [per8],
-    category: "Beauty",
-    subCategory: "Perfume",
-    sizes: ["30ml", "50ml", "100ml"],
+    category: "Unisex",
+    subCategory: "Perfumes",
     date: 1716634347448,
     bestseller: true,
     tags: ["perfume", "perfume bottles", "glass bottles", "fragrance collection", "gift set", "luxury", "elegant", "classic"]
@@ -404,9 +388,8 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     description: "A timeless, square-shaped bottle with a soft amber hue, ideal for women who appreciate elegance and warm floral notes. A staple design that radiates classic sophistication.",
     price: 620,
     image: [per9],
-    category: "Beauty",
-    subCategory: "Perfume",
-    sizes: ["50ml", "100ml"],
+    category: "Women",
+    subCategory: "Perfumes",
     date: 1716634348448,
     bestseller: true,
     tags: ["perfume", "women perfume", "amber scent", "square bottle", "classic design", "fragrance", "warm notes", "elegant", "feminine", "floral"]
@@ -419,9 +402,8 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     description: "A sleek, crystal-clear cubic perfume bottle with a modern aesthetic. Perfect for unisex fragrances and lovers of minimalist, clean fragrances.",
     price: 580,
     image: [per10],
-    category: "Beauty",
-    subCategory: "Perfume",
-    sizes: ["100ml"],
+    category: "Unisex",
+    subCategory: "Perfumes",
     date: 1716634349448,
     bestseller: false,
     tags: ["perfume", "unisex perfume", "minimalist", "modern", "fragrance", "clean aesthetic"]
@@ -434,9 +416,8 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     description: "This zesty perfume bottle, smells by fresh oranges, encapsulates the essence of citrus freshness. A bold choice for a fruity, energizing fragrance.",
     price: 670,
     image: [per11],
-    category: "Beauty",
-    subCategory: "Perfume",
-    sizes: ["75ml", "150ml"],
+    category: "Unisex",
+    subCategory: "Perfumes",
     date: 1716634350448,
     bestseller: true,
     tags: ["perfume", "citrus perfume", "orange", "fresh", "fruity fragrance", "fragrance", "summer scent", "bold", "tropical"]
@@ -450,8 +431,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 720,
     image: [per12],
     category: "Beauty",
-    subCategory: "Perfume",
-    sizes: ["60ml", "120ml"],
+    subCategory: "Perfumes",
     date: 1716634351448,
     bestseller: false,
     tags: ["perfume", "earthy scent", "natural", "organic", "warm tones", "women fragrance", "fragrance", "soft design"]
@@ -908,7 +888,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe1],
     category: "Men",
     subCategory: "Footwear",
-    sizes: ["7", "8", "9", "10"],
     tags: ["men sneakers", "casual sneakers", "retro sneakers", "striped shoes", "streetwear shoes", "beige sneakers", "everyday footwear", "trendy sneakers", "travel shoes", "lace up sneakers"],
     date: 1717234345448,
     bestseller: true
@@ -922,7 +901,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe2],
     category: "Men",
     subCategory: "Footwear",
-    sizes: ["6", "8", "9", "11"],
     tags: ["men sneakers", "casual sneakers", "tan sneakers", "brown shoes", "everyday footwear", "neutral sneakers", "low top sneakers", "streetwear sneakers", "men footwear", "trendy casual shoes"],
     date: 1717334345448,
     bestseller: true
@@ -936,7 +914,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe3],
     category: "Unisex",
     subCategory: "Footwear",
-    sizes: ["5", "6", "7", "8", "9"],
     tags: ["unisex sneakers", "brown sneakers", "retro sneakers", "casual sneakers", "striped shoes", "suede sneakers", "vintage sneakers", "everyday shoes", "men footwear", "women footwear"],
     date: 1717434345448,
     bestseller: false
@@ -950,7 +927,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe4],
     category: "Men",
     subCategory: "Footwear",
-    sizes: ["7", "8", "9", "10", "11"],
     tags: ["men sneakers", "chunky sneakers", "sports sneakers", "blue sneakers", "streetwear shoes", "gym shoes", "athletic sneakers", "fashion sneakers", "casual shoes", "outdoor sneakers"],
     date: 1717534345448,
     bestseller: true
@@ -964,7 +940,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe5],
     category: "Men",
     subCategory: "Footwear",
-    sizes: ["7", "8", "9", "10"],
     tags: ["men sneakers", "chunky sneakers", "olive green sneakers", "streetwear sneakers", "casual sneakers", "fashion shoes", "bold sneakers", "everyday footwear", "sporty sneakers", "trendy sneakers"],
     date: 1717234545448,
     bestseller: true
@@ -978,7 +953,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe6],
     category: "Men",
     subCategory: "Footwear",
-    sizes: ["6", "7", "9", "11"],
     tags: ["men sneakers", "maroon sneakers", "low top sneakers", "casual sneakers", "streetwear shoes", "everyday footwear", "fashion sneakers", "men casual shoes", "trendy sneakers", "colorful sneakers"],
     date: 1717234645448,
     bestseller: false
@@ -992,7 +966,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe7],
     category: "Women",
     subCategory: "Footwear",
-    sizes: ["4", "5", "6", "7"],
     tags: ["women sneakers", "chunky sneakers", "pink sneakers", "street style shoes", "fashion sneakers", "bold sneakers", "trendy women footwear", "casual sneakers", "athleisure shoes", "everyday shoes"],
     date: 1717234745448,
     bestseller: true
@@ -1006,7 +979,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe8],
     category: "Men",
     subCategory: "Footwear",
-    sizes: ["7", "8", "9", "10", "11"],
     tags: ["chelsea boots", "black boots", "unisex boots", "formal footwear", "men boots", "women boots", "leather boots", "classic boots", "slip-on boots", "semi-formal shoes"],
     date: 1717234845448,
     bestseller: false
@@ -1020,7 +992,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe9],
     category: "Men",
     subCategory: "Footwear",
-    sizes: ["8", "9", "10", "11"],
     tags: ["combat boots", "black boots", "men boots", "suede boots", "lace-up boots", "rugged boots", "outdoor footwear", "casual boots", "trendy boots", "winter boots"],
     date: 1717234945448,
     bestseller: false
@@ -1034,7 +1005,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe10],
     category: "Women",
     subCategory: "Footwear",
-    sizes: ["5", "6", "7", "8"],
     tags: ["women boots", "knee-high boots", "leather boots", "block heel boots", "long boots", "formal footwear", "winter boots", "stylish women shoes", "fashion boots", "trendy boots"],
     date: 1717235045448,
     bestseller: true
@@ -1048,7 +1018,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe11],
     category: "Women",
     subCategory: "Footwear",
-    sizes: ["5", "6", "7", "8"],
     tags: ["women heels", "pointed toe heels", "dual-tone heels", "formal heels", "party shoes", "office footwear", "stylish heels", "cream heels", "elegant women shoes", "trendy heels"],
     date: 1717334657821,
     bestseller: false
@@ -1062,7 +1031,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe12],
     category: "Women",
     subCategory: "Footwear",
-    sizes: ["5", "6", "7", "8", "9"],
     tags: ["women heels", "stiletto heels", "pastel heels", "party heels", "formal footwear", "green heels", "pink heels", "elegant heels", "fashion heels", "high heels"],
     date: 1717235345448,
     bestseller: true
@@ -1076,7 +1044,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe13],
     category: "Women",
     subCategory: "Footwear",
-    sizes: ["4", "5", "6", "8"],
     tags: ["women heels", "black heels", "patent leather heels", "party heels", "formal footwear", "high heels", "stylish women shoes", "night out heels", "red sole shoes", "glam heels"],
     date: 1717235445448,
     bestseller: false
@@ -1090,7 +1057,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe14],
     category: "Women",
     subCategory: "Footwear",
-    sizes: ["5", "6", "7"],
     tags: ["women mules", "black shoes", "slip-on shoes", "pointed toe footwear", "everyday women shoes", "office shoes", "stylish mules", "casual footwear", "chic women shoes", "minimalist shoes"],
     date: 1717235545448,
     bestseller: false
@@ -1104,7 +1070,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     image: [shoe15],
     category: "Women",
     subCategory: "Footwear",
-    sizes: ["4", "5", "7", "8"],
     tags: ["women heels", "yellow heels", "red heels", "classic heels", "pointed heels", "retro heels", "party footwear", "formal shoes", "bold women shoes", "trendy heels"],
     date: 1717235645448,
     bestseller: true
@@ -1117,8 +1082,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1099,
     image: [glass1],
     category: "Women",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["women sunglasses", "cat-eye sunglasses", "white frame sunglasses", "slim eyewear", "fashion sunglasses", "trendy shades", "summer accessories", "statement eyewear", "retro sunglasses", "stylish sunglasses"],
     date: 1717236145448,
     bestseller: true
@@ -1131,8 +1095,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1199,
     image: [glass2],
     category: "Women",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["women sunglasses", "oversized sunglasses", "red sunglasses", "round frame sunglasses", "retro eyewear", "transparent sunglasses", "fashion accessories", "bold statement sunglasses", "trendy shades", "summer style"],
     date: 1717236245448,
     bestseller: true
@@ -1145,8 +1108,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1399,
     image: [glass3],
     category: "Unisex",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["unisex sunglasses", "octagon sunglasses", "blue gradient lenses", "gold frame eyewear", "geometric sunglasses", "retro sunglasses", "fashion eyewear", "festival sunglasses", "trendy unisex shades", "modern style"],
     date: 1717236345448,
     bestseller: false
@@ -1159,8 +1121,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1299,
     image: [glass4],
     category: "Unisex",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["unisex sunglasses", "geometric sunglasses", "black round sunglasses", "gold frame eyewear", "statement sunglasses", "retro style sunglasses", "modern sunglasses", "bold unisex eyewear", "everyday sunglasses", "fashion accessories"],
     date: 1717236445448,
     bestseller: false
@@ -1173,8 +1134,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 999,
     image: [glass5],
     category: "Unisex",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["unisex sunglasses", "green sunglasses", "chunky frame sunglasses", "retro sunglasses", "fashion eyewear", "bold sunglasses", "festival sunglasses", "colorful eyewear", "trendy unisex shades", "summer style"],
     date: 1717236545448,
     bestseller: false
@@ -1187,8 +1147,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1149,
     image: [glass6],
     category: "Unisex",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["unisex sunglasses", "oversized sunglasses", "amber sunglasses", "shield sunglasses", "sporty eyewear", "festival sunglasses", "trendy shades", "statement sunglasses", "retro futuristic style", "bold fashion eyewear"],
     date: 1717236645448,
     bestseller: true
@@ -1201,8 +1160,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1299,
     image: [glass7],
     category: "Unisex",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["unisex sunglasses", "cat-eye sunglasses", "white frame sunglasses", "statement sunglasses", "retro style sunglasses", "bold eyewear", "fashion accessories", "festival sunglasses", "stylish eyewear", "modern design"],
     date: 1717236745448,
     bestseller: true
@@ -1215,8 +1173,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1050,
     image: [glass8],
     category: "Unisex",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["unisex sunglasses", "yellow sunglasses", "square frame sunglasses", "transparent eyewear", "fashion sunglasses", "trendy shades", "colorful sunglasses", "retro eyewear", "festival sunglasses", "statement eyewear"],
     date: 1717236845448,
     bestseller: false
@@ -1229,8 +1186,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 989,
     image: [glass9],
     category: "Unisex",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["unisex sunglasses", "blue sunglasses", "matte sunglasses", "square frame eyewear", "chunky sunglasses", "fashion accessories", "summer sunglasses", "retro style eyewear", "minimal sunglasses", "colorful eyewear"],
     date: 1717236945448,
     bestseller: false
@@ -1243,8 +1199,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1125,
     image: [glass10],
     category: "Women",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["women sunglasses", "red sunglasses", "oval sunglasses", "slim sunglasses", "tinted eyewear", "fashion sunglasses", "street style eyewear", "retro oval frame", "trendy accessories", "bold eyewear"],
     date: 1717237045448,
     bestseller: true
@@ -1257,8 +1212,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 899,
     image: [glass11],
     category: "Unisex",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["unisex glasses", "clear frame eyewear", "oversized sunglasses", "minimalist accessories", "statement sunglasses", "fashion eyewear", "retro style sunglasses", "everyday wear eyewear", "modern sunglasses", "bold style"],
     date: 1717237145448,
     bestseller: false
@@ -1271,8 +1225,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1199,
     image: [glass12],
     category: "Women",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["women sunglasses", "black cat-eye sunglasses", "sharp sunglasses", "dark eyewear", "statement sunglasses", "fashion accessories", "retro sunglasses", "bold cat-eye style", "trendy sunglasses", "editorial eyewear"],
     date: 1717237245448,
     bestseller: true
@@ -1285,8 +1238,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1050,
     image: [glass13],
     category: "Men",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["men sunglasses", "rectangle frame sunglasses", "dark tinted sunglasses", "classic eyewear", "fashion accessories", "everyday sunglasses", "retro style", "street style sunglasses", "sharp sunglasses", "trendy eyewear"],
     date: 1717237345448,
     bestseller: false
@@ -1299,8 +1251,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 975,
     image: [glass14],
     category: "Women",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["women sunglasses", "green sunglasses", "oval sunglasses", "slim eyewear", "modern sunglasses", "fashion sunglasses", "trendy eyewear", "street style sunglasses", "colorful eyewear", "bold accessories"],
     date: 1717237445448,
     bestseller: true
@@ -1313,8 +1264,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1320,
     image: [glass15],
     category: "Women",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["women sunglasses", "rimless sunglasses", "winged sunglasses", "tinted eyewear", "avant-garde sunglasses", "statement sunglasses", "fashion eyewear", "trendy sunglasses", "retro style sunglasses", "bold eyewear"],
     date: 1717237545448,
     bestseller: false
@@ -1327,8 +1277,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1249,
     image: [glass16],
     category: "Women",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["women sunglasses", "cat-eye sunglasses", "steel blue sunglasses", "frosted frame eyewear", "fashion accessories", "statement sunglasses", "retro cat-eye style", "bold eyewear", "editorial sunglasses", "modern style"],
     date: 1717237645448,
     bestseller: true
@@ -1341,8 +1290,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     price: 1399,
     image: [glass17, glass17_a],
     category: "Women",
-    subCategory: "Accessories",
-    sizes: ["free-size"],
+    subCategory: "Sunglasses",
     tags: ["women sunglasses", "oversized sunglasses", "matte black sunglasses", "wrap frame sunglasses", "fashion accessories", "statement eyewear", "trendy sunglasses", "bold style sunglasses", "editorial fashion eyewear", "luxury look sunglasses"],
     date: 1717237745448,
     bestseller: true
