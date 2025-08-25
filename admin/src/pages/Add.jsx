@@ -156,7 +156,7 @@ const Add = ({ token }) => {
             <option value="Bags">Bags</option>
             <option value="Sunglasses">Sunglasses</option>
             <option value="Hats">Hats</option>
-            <option value="Jewelry">Jewelery</option>
+            <option value="Jewelery">Jewelery</option>
             <option value="Perfumes">Perfumes</option>
             <option value="Footwear">Footwear</option>
           </select>
