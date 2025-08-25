@@ -1533,7 +1533,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 },
 {
     _id: "bag1",
-    name: "Women Brown Canvas Tote Bag | Everyday Cotton Shoulder Bag",
+    name: "Women Brown Canvas Tote Bag",
     description: "A minimal and reliable brown canvas tote bag for everyday use. Ideal for college, casual outings, or grocery runs. Spacious, washable, and effortlessly chic.",
     price: 429,
     image: [bag1],
@@ -1546,7 +1546,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 },
 {
     _id: "bag2",
-    name: "Women PU Leather Tote Bag Set | Structured Handbags - Blue, Beige, White",
+    name: "Women PU Leather Tote Bag Set",
     description: "A premium PU leather tote set with elegant finishes. Comes in 3 classic shades: royal blue, ivory, and beige. Ideal for work, events, or weekend style.",
     price: 999,
     image: [bag2],
@@ -1560,7 +1560,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 },
 {
     _id: "bag3",
-    name: "Women Wine Red Shoulder Bag | Elegant Leather Handbag with Gold Clasp",
+    name: "Elegant Leather Handbag with Gold Clasp",
     description: "Chic and sophisticated, this wine red shoulder bag is made from premium faux leather with a gold clasp. Perfect for evening wear, parties, and formal events.",
     price: 1299,
     image: [bag3],
@@ -1573,7 +1573,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 },
 {
     _id: "bag4",
-    name: "Women Cream Canvas Tote Bag | Light Everyday Shopping Bag",
+    name: "Light Everyday Shopping Bag",
     description: "A soft cream-colored canvas tote bag for easy daily use. Lightweight yet roomy, it’s perfect for casual errands, books, and even a laptop. Stylish with a fresh pastel touch.",
     price: 379,
     image: [bag4],
@@ -1588,7 +1588,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 
 {
   _id: "bag5",
-  name: "Women Canvas Green Tote Bag | Pastel Summer Carryall",
+  name: "Pastel Summer Carryall",
   description: "This sturdy and classy canvas tote bag is perfect for summer. Lightweight, eco-friendly, and stylish with pastel tones – ideal for books, shopping, work, or a casual outing.",
   price: 429,
   image: [bag5],
@@ -1602,7 +1602,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 
 {
   _id: "bag6",
-  name: "Women Tan Vegan Leather Shoulder Bag | Elegant Everyday Bag",
+  name: "Women Tan Leather Shoulder Bag",
   description: "A classy tan vegan leather shoulder bag with gold accents. Spacious and structured – perfect for everyday office, college, or outings.",
   price: 999,
   image: [bag6],
@@ -1616,7 +1616,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 
 {
   _id: "bag7",
-  name: "Women Black Canvas Bag | Minimalist Daily Carry",
+  name: "Women Black Canvas Bag",
   description: "Sleek black canvas sling bag for your minimalist lifestyle. Durable, lightweight, and perfect for casual daily needs or shopping sprees.",
   price: 359,
   image: [bag7],
@@ -1630,7 +1630,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 
 {
   _id: "bag8",
-  name: "Women Brown Printed Canvas Tote Bag | Oversized Shopper",
+  name: "Women Brown Printed Canvas Tote Bag",
   description: "A brown printed canvas tote bag with an artsy touch. Oversized and sturdy, perfect for books, laptops, or light groceries.",
   price: 469,
   image: [bag8],
@@ -1644,7 +1644,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 
 {
   _id: "bag9",
-  name: "Women Green Shoulder Bag | Quilted Style Party Tote",
+  name: "Quilted Style Party Tote",
   description: "Trendy green quilted shoulder bag with a glossy finish. Great for party evenings, brunch dates, or dressing up a casual outfit.",
   price: 749,
   image: [bag9],
@@ -1658,7 +1658,7 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
 
 {
   _id: "bag10",
-  name: "Women White Mini Stylish Bag | Small Casual Day Bag",
+  name: "Women White Mini Stylish Bag",
   description: "A mini-sized white tote bag that’s cute and casual. Perfect for carrying essentials like wallet, phone, and keys. Lightweight and stylish.",
   price: 319,
   image: [bag10],
@@ -1816,12 +1816,6 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     date: 1716759545448,
     bestseller: false,
     tags: ["women", "hat", "wide brim hat", "teal hat", "textured hat", "fashion hat", "statement hat"]
-}
-
-
-
-
-
-
+},
 
 ]
