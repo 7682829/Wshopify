@@ -90,6 +90,45 @@ import glass16 from './glass16.jpg';
 import glass17_a from './glass17_a.jpg';
 import glass17 from './glass17.jpg';
 
+import bag1 from './bag1.jpg';
+import bag2 from './bag2.jpg';
+import bag3 from './bag3.jpg';
+import bag4 from './bag4.jpg';
+import bag5 from './bag5.jpg';
+import bag6 from './bag6.jpg';
+import bag7 from './bag7.jpg';
+import bag8 from './bag8.jpeg';
+import bag9 from './bag9.jpg';
+import bag10 from './bag10.jpg';
+import bag11 from './bag11.jpg';
+import bag12_a from './bag12_a.jpg';
+import bag12 from './bag12.jpg';
+import bag13 from './bag13.jpg';
+
+import shoe1 from './shoe1.jpg';
+import shoe2 from './shoe2.jpg';
+import shoe3 from './shoe3.jpg';
+import shoe4 from './shoe4.jpg';
+import shoe5 from './shoe5.jpg';
+import shoe6 from './shoe6.jpg';
+import shoe7 from './shoe7.jpg';
+import shoe8 from './shoe8.jpg';
+import shoe9 from './shoe9.jpg';
+import shoe10 from './shoe10.jpeg';
+import shoe11 from './shoe11.jpg';
+import shoe12 from './shoe12.jpg';
+import shoe13 from './shoe13.jpg';
+import shoe14 from './shoe14.jpg';
+import shoe15 from './shoe15.jpg';
+
+import hat1 from './hat1.jpg';
+import hat2 from './hat2.jpg';
+import hat3 from './hat3.jpg';
+import hat4 from './hat4.jpg';
+import hat5 from './hat5.jpg';
+import hat6 from './hat6.jpg';
+import hat7 from './hat7.jpg';
+import hat8 from './hat8.jpg';
 
 
 import logo from './logo.png'
@@ -1491,7 +1530,298 @@ tags: ["perfume", "luxury perfume", "blue bottle", "gold cap", "designer", "glas
     date: 1716952345888,
     bestseller: true,
     tags: ["women turtleneck", "black skirt", "pleated skirt", "elegant outfit", "casual formal", "women fashion"]
+},
+{
+    _id: "bag1",
+    name: "Women Brown Canvas Tote Bag | Everyday Cotton Shoulder Bag",
+    description: "A minimal and reliable brown canvas tote bag for everyday use. Ideal for college, casual outings, or grocery runs. Spacious, washable, and effortlessly chic.",
+    price: 429,
+    image: [bag1],
+    category: "Women",
+    subCategory: "Bags",
+    sizes: ["M", "L"],
+    date: 1719840000000,
+    bestseller: true,
+    tags: ["women", "tote bag", "canvas bag", "shoulder bag", "brown bag", "everyday bag"]
+},
+{
+    _id: "bag2",
+    name: "Women PU Leather Tote Bag Set | Structured Handbags - Blue, Beige, White",
+    description: "A premium PU leather tote set with elegant finishes. Comes in 3 classic shades: royal blue, ivory, and beige. Ideal for work, events, or weekend style.",
+    price: 999,
+    image: [bag2],
+    category: "Women",
+    subCategory: "Bags",
+    sizes: ["L", "XL"],
+    date: 1719840000000,
+    bestseller: true,
+    tags: ["women", "tote bag", "leather bag", "handbag", "office bag", "casual bag"]
+
+},
+{
+    _id: "bag3",
+    name: "Women Wine Red Shoulder Bag | Elegant Leather Handbag with Gold Clasp",
+    description: "Chic and sophisticated, this wine red shoulder bag is made from premium faux leather with a gold clasp. Perfect for evening wear, parties, and formal events.",
+    price: 1299,
+    image: [bag3],
+    category: "Women",
+    subCategory: "Bags",
+    sizes: ["S", "M"],
+    date: 1719840000000,
+    bestseller: true,
+    tags: ["women", "shoulder bag", "handbag", "leather bag", "party bag", "red bag"]
+},
+{
+    _id: "bag4",
+    name: "Women Cream Canvas Tote Bag | Light Everyday Shopping Bag",
+    description: "A soft cream-colored canvas tote bag for easy daily use. Lightweight yet roomy, it’s perfect for casual errands, books, and even a laptop. Stylish with a fresh pastel touch.",
+    price: 379,
+    image: [bag4],
+    category: "Women",
+    subCategory: "Bags",
+    sizes: ["S", "M", "L"],
+    date: 1719840000000,
+    bestseller: true,
+    tags: ["women", "tote bag", "canvas bag", "cream bag", "shopping bag", "everyday bag"]
+
+},
+
+{
+  _id: "bag5",
+  name: "Women Canvas Green Tote Bag | Pastel Summer Carryall",
+  description: "This sturdy and classy canvas tote bag is perfect for summer. Lightweight, eco-friendly, and stylish with pastel tones – ideal for books, shopping, work, or a casual outing.",
+  price: 429,
+  image: [bag5],
+  category: "Women",
+  subCategory: "Bags",
+  sizes: ["M", "L"],
+  date: 1719840000000,
+  bestseller: false,
+  tags: ["women", "tote bag", "canvas bag", "pastel bag", "summer bag", "eco-friendly"]
+},
+
+{
+  _id: "bag6",
+  name: "Women Tan Vegan Leather Shoulder Bag | Elegant Everyday Bag",
+  description: "A classy tan vegan leather shoulder bag with gold accents. Spacious and structured – perfect for everyday office, college, or outings.",
+  price: 999,
+  image: [bag6],
+  category: "Women",
+  subCategory: "Bags",
+  sizes: ["M"],
+  date: 1719840000000,
+  bestseller: true,
+  tags: ["women", "shoulder bag", "leather bag", "tan bag", "office bag", "everyday bag"]
+},
+
+{
+  _id: "bag7",
+  name: "Women Black Canvas Bag | Minimalist Daily Carry",
+  description: "Sleek black canvas sling bag for your minimalist lifestyle. Durable, lightweight, and perfect for casual daily needs or shopping sprees.",
+  price: 359,
+  image: [bag7],
+  category: "Women",
+  subCategory: "Bags",
+  sizes: ["S", "M", "L"],
+  date: 1719840000000,
+  bestseller: false,
+  tags: ["women", "tote bag", "canvas bag", "black bag", "shopping bag", "casual bag"]
+},
+
+{
+  _id: "bag8",
+  name: "Women Brown Printed Canvas Tote Bag | Oversized Shopper",
+  description: "A brown printed canvas tote bag with an artsy touch. Oversized and sturdy, perfect for books, laptops, or light groceries.",
+  price: 469,
+  image: [bag8],
+  category: "Women",
+  subCategory: "Bags",
+  sizes: ["L"],
+  date: 1719840000000,
+  bestseller: false,
+  tags: ["women", "tote bag", "canvas bag", "printed bag", "oversized bag", "casual bag"]
+},
+
+{
+  _id: "bag9",
+  name: "Women Green Shoulder Bag | Quilted Style Party Tote",
+  description: "Trendy green quilted shoulder bag with a glossy finish. Great for party evenings, brunch dates, or dressing up a casual outfit.",
+  price: 749,
+  image: [bag9],
+  category: "Women",
+  subCategory: "Bags",
+  sizes: ["S", "M"],
+  date: 1719840000000,
+  bestseller: true,
+  tags: ["women", "shoulder bag", "handbag", "green bag", "party bag", "fashion bag"]
+},
+
+{
+  _id: "bag10",
+  name: "Women White Mini Stylish Bag | Small Casual Day Bag",
+  description: "A mini-sized white tote bag that’s cute and casual. Perfect for carrying essentials like wallet, phone, and keys. Lightweight and stylish.",
+  price: 319,
+  image: [bag10],
+  category: "Women",
+  subCategory: "Bags",
+  sizes: ["XS", "S"],
+  date: 1719840000000,
+  bestseller: false,
+  tags: ["women", "tote bag", "mini bag", "white bag", "small bag", "casual bag"]
+},
+
+    {
+    _id: "bag11",
+    name: "Women Leather Crossbody Bag Set - Tan & Beige",
+    description: "A premium set of structured crossbody bags in smooth tan and beige leather. Designed with an angular silhouette and front zip pouch, this versatile pair blends everyday function with modern elegance.",
+    price: 2649,
+    image: [bag11],
+    category: "Women",
+    subCategory: "Sling Bags",
+    sizes: ["M", "L"],
+    date: 1716838345448,
+    bestseller: true,
+    tags: ["women", "crossbody bag", "sling bag", "leather bag", "tan bag", "beige bag"]
+},
+{
+    _id: "bag12",
+    name: "Women Classic Canvas Tote Bag - Minimalist Oversized",
+    description: "A spacious and minimalist tote crafted from durable canvas, perfect for everyday essentials. Its clean silhouette and wide shoulder strap make it a timeless companion for work, errands, or casual outings.",
+    price: 799,
+    image: [bag12,bag12_a],
+    category: "Women",
+    subCategory: "Tote Bags",
+    sizes: ["L", "XL"],
+    date: 1716832345448,
+    bestseller: true,
+    tags: ["women", "tote bag", "canvas bag", "shoulder bag", "minimalist bag", "large bag"]
+},
+
+{
+    _id: "bag13",
+    name: "Women Beaded Pearl Handbag - Mini Clutch",
+    description: "An elegant and bold mini handbag made entirely of luminous faux pearls. The structured shape, shell clasp, and bead handle make it a statement accessory for weddings, parties, and summer getaways.",
+    price: 1890,
+    image: [bag13],
+    category: "Women",
+    subCategory: "Clutches",
+    sizes: ["Free Size"],
+    date: 1716835345448,
+    bestseller: true,
+    tags: ["women", "handbag", "clutch bag", "pearl bag", "party bag", "wedding bag"]
+},
+{
+    _id: "hat1",
+    name: "Women Wide Brim Felt Hat - Elegant Black",
+    description: "A sleek and structured wide-brim felt hat in classic black. Perfect for adding elegance to autumn or winter looks, it’s designed to elevate your wardrobe with a touch of timeless sophistication.",
+    price: 1349,
+    image: [hat1],
+    category: "Women",
+    subCategory: "Hats",
+    sizes: ["M", "L"],
+    date: 1716841345448,
+    bestseller: true,
+    tags: ["women", "hat", "wide brim hat", "felt hat", "black hat", "elegant hat", "winter hat"]
+},
+{
+    _id: "hat2",
+    name: "Men Classic Fedora Hat - Beige & Brown Band",
+    description: "A classic fedora crafted from breathable fabric, featuring a stylish brown band. This structured hat adds a polished finish to smart or semi-formal looks, perfect for sunny days or layered fall outfits.",
+    price: 1190,
+    image: [hat2],
+    category: "Men",
+    subCategory: "Hats",
+    sizes: ["L", "XL"],
+    date: 1716844345448,
+    bestseller: true,
+    tags: ["men", "hat", "fedora", "beige hat", "brown band", "classic hat", "formal hat"]
+},
+{
+    _id: "hat3",
+    name: "Women Textured Brim Hat - Evening Black",
+    description: "A bold and fashion-forward black hat with a textured finish and wide brim. Ideal for elevated evening wear or formal looks, this design blends drama and refinement in perfect balance.",
+    price: 1499,
+    image: [hat3],
+    category: "Women",
+    subCategory: "Hats",
+    sizes: ["Free Size"],
+    date: 1716847345448,
+    bestseller: true,
+    tags: ["women", "hat", "wide brim hat", "black hat", "textured hat", "evening hat", "fashion hat"]
+},
+{
+    _id: "hat4",
+    name: "Women Straw Sun Hat - Beach Wide Brim",
+    description: "A natural straw hat with a wide brim designed for maximum sun protection and tropical flair. Lightweight and breathable, it’s the perfect beachside essential for sunny days and vacation escapes.",
+    price: 1049,
+    image: [hat4],
+    category: "Women",
+    subCategory: "Hats",
+    sizes: ["M", "L"],
+    date: 1716850345448,
+    bestseller: true,
+    tags: ["women", "hat", "straw hat", "sun hat", "beach hat", "wide brim hat", "summer hat"]
+},
+
+
+{
+    _id: "hat5",
+    name: "Women Printed Bucket Hat - Animal Print Beige",
+    description: "Elevate your outdoor style with this soft beige bucket hat featuring sleek black panther prints. Lightweight and breathable, it’s perfect for sunny strolls, vacations, or daily chic flair.",
+    price: 699,
+    image: [hat5],
+    category: "Women",
+    subCategory: "Accessories",
+    sizes: ["Free Size"],
+    date: 1716741545448,
+    bestseller: true,
+    tags: ["women", "hat", "bucket hat", "beige hat", "printed hat", "casual hat", "summer hat"]
+},
+{
+    _id: "hat6",
+    name: "Men Abstract Camouflage Cap - Red Beige Streetwear",
+    description: "Blend boldness with street style in this abstract camo baseball cap. Featuring a striking red-beige pattern with a curved visor, it’s made for everyday wear with a modern twist.",
+    price: 599,
+    image: [hat6],
+    category: "Men",
+    subCategory: "Accessories",
+    sizes: ["Free Size"],
+    date: 1716745545448,
+    bestseller: true,
+    tags: ["men", "hat", "cap", "baseball cap", "camouflage cap", "red cap", "streetwear cap"]
+},
+{
+    _id: "hat7",
+    name: "Women Straw Hat - Summer Boho Wide Brim",
+    description: "Stay shaded in style with this woven straw hat, perfect for warm days and golden hour strolls. Features a classic wide brim and natural beige tones that go with everything.",
+    price: 799,
+    image: [hat7],
+    category: "Women",
+    subCategory: "Accessories",
+    sizes: ["Free Size"],
+    date: 1716759545448,
+    bestseller: false,
+    tags: ["women", "hat", "straw hat", "wide brim hat", "sun hat", "beige hat", "boho hat", "summer hat"]
+},
+
+{
+    _id: "hat8",
+     name: "Textured Teal Wide Brim Hat",
+    description: "A bold wide-brim teal hat with a textured finish, perfect for making a strong fashion statement. Styled with a vibrant outfit, this hat elevates any look with elegance and modern flair.",
+    price: 899,
+    image: [hat8],
+    category: "Women",
+    subCategory: "Accessories",
+    sizes: ["Free Size"],
+    date: 1716759545448,
+    bestseller: false,
+    tags: ["women", "hat", "wide brim hat", "teal hat", "textured hat", "fashion hat", "statement hat"]
 }
+
+
+
+
+
 
 
 ]
