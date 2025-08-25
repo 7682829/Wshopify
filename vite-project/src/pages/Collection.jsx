@@ -105,7 +105,7 @@ const sortProduct = () => {
               <input className='w-3' type="checkbox" value="Women" onChange={toggleCategory} /> Women
             </p>
             <p className='flex gap-2'> 
-              <input className='w-3' type="checkbox" value="Kids" onChange={toggleCategory} /> Kids
+              <input className='w-3' type="checkbox" value="Unisex" onChange={toggleCategory} /> Unisex
             </p>
           </div>
         </div>
@@ -115,13 +115,25 @@ const sortProduct = () => {
           <p className='mb-3 text-sm font-medium'>Types</p>
           <div className='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className='flex gap-2'> 
-              <input className='w-3' type="checkbox" value="Topwear" onChange={toggleSubCategory}/> Tops
+              <input className='w-3' type="checkbox" value="Topwear" onChange={toggleSubCategory}/> Topwear
             </p>
             <p className='flex gap-2'> 
-              <input className='w-3' type="checkbox" value="Bottomwear" onChange={toggleSubCategory}/> Bottoms
+              <input className='w-3' type="checkbox" value="Bottomwear" onChange={toggleSubCategory}/> Bottomwear
             </p>
             <p className='flex gap-2'> 
-              <input className='w-3' type="checkbox" value="Winterwear" onChange={toggleSubCategory}/> Winterwear
+              <input className='w-3' type="checkbox" value="Sunglasses" onChange={toggleSubCategory}/> Sunglasses
+            </p>
+            <p className='flex gap-2'> 
+              <input className='w-3' type="checkbox" value="Hats" onChange={toggleSubCategory}/> Hats
+            </p>
+            <p className='flex gap-2'> 
+              <input className='w-3' type="checkbox" value="Jewelery" onChange={toggleSubCategory}/> Jewelery
+            </p>
+            <p className='flex gap-2'> 
+              <input className='w-3' type="checkbox" value="Perfumes" onChange={toggleSubCategory}/> Perfumes
+            </p>
+            <p className='flex gap-2'> 
+              <input className='w-3' type="checkbox" value="Footwear" onChange={toggleSubCategory}/> Footwear
             </p>
           </div>
         </div>
