@@ -8,7 +8,7 @@ import { TestimonialsSection } from '../components/TestimonialsSection';
 
 const Home = () => {
   return (
-    <div>
+    <div className="-mt-[70px]">
       <Hero/>
       <br />
       <TextParallaxContentExample />

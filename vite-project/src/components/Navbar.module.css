@@ -12,6 +12,7 @@
     position: relative;
     z-index: 100;
     color: #010101;
+    padding: 10px 0;
 }
 
 .logo {
