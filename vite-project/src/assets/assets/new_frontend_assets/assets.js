@@ -32,7 +32,6 @@ import top8 from './top8.jpg';
 import top9 from './top9.jpg';
 import top10 from './top10.jpg';
 import top11 from './top11.jpg';
-import top12 from './top12.jpg';
 import top13 from './top13.jpg';
 import top14 from './top14.jpg';
 import top15 from './top15.jpg';
@@ -149,7 +148,6 @@ import contact_img from './contact_img.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
-import { Tags } from 'lucide-react'
 
 export const assets = {
     logo,
@@ -181,7 +179,7 @@ export const products = [
     price: 1350,
     image: [pearl1],
     category: "Women",
-    subCategory: "Jewelry",
+    subCategory: "Jewelery",
     date: 1716634345801,
     bestseller: true,
     tags: ["pearl", "necklace", "layered", "women", "statement", "back jewellery", "accessories", "jewellery"]
@@ -194,7 +192,7 @@ export const products = [
     price: 780,
     image: [pearl2, pearl2_a],
     category: "Women",
-    subCategory: "Jewelry",
+    subCategory: "Jewelery",
     date: 1716634345843,
     bestseller: true,
     tags: ["pearl", "necklace", "choker", "women", "beachwear", "boho", "crystal", "accessories", "jewellery"]
@@ -207,7 +205,7 @@ export const products = [
     price: 990,
     image: [pearl3],
     category: "Women",
-    subCategory: "Jewelry",
+    subCategory: "Jewelery",
     date: 1716634345885,
     bestseller: false,
     tags: ["pearl", "gold", "necklace", "layered", "women", "minimalist", "jewellery", "accessories"]
@@ -220,7 +218,7 @@ export const products = [
     price: 1599,
     image: [pearl5],
     category: "Women",
-    subCategory: "Jewelry",
+    subCategory: "Jewelery",
     date: 1717256345448,
     bestseller: true,
     tags: ["women", "necklace", "heart charm", "jewelry", "blue crystal", "accessories", "jewellery"]
@@ -233,7 +231,7 @@ export const products = [
     price: 2399,
     image: [pearl6],
     category: "Women",
-    subCategory: "Jewelry",
+    subCategory: "Jewelery",
     date: 1717356345448,
     bestseller: true,
     tags: ["women", "choker", "shell jewelry", "gold", "statement necklace", "beach style", "accessories", "jewellery"]
@@ -246,7 +244,7 @@ export const products = [
     price: 1299,
     image: [pearl7],
     category: "Women",
-    subCategory: "Jewelry",
+    subCategory: "Jewelery",
     date: 1717456345448,
     bestseller: false,
     tags: ["women", "pendant", "amber crystal", "gold necklace", "elegant", "jewelry", "accessories", "jewellery"]
@@ -259,7 +257,7 @@ export const products = [
     price: 2699,
     image: [pearl8],
     category: "Women",
-    subCategory: "Jewelry",
+    subCategory: "Jewelery",
     date: 1717556345448,
     bestseller: true,
     tags: ["women", "pearl", "jewelry set", "necklace", "luxury", "resort wear", "accessories", "jewellery"]
@@ -272,7 +270,7 @@ export const products = [
     price: 2899,
     image: [pearl9],
     category: "Women",
-    subCategory: "Jewelry",
+    subCategory: "Jewelery",
     date: 1717656345448,
     bestseller: true,
     tags: ["women", "pearl jewelry", "shell", "statement piece", "accessories", "jewellery"]

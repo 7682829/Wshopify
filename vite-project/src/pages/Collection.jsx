@@ -121,6 +121,9 @@ const sortProduct = () => {
               <input className='w-3' type="checkbox" value="Bottomwear" onChange={toggleSubCategory}/> Bottomwear
             </p>
             <p className='flex gap-2'> 
+              <input className='w-3' type="checkbox" value="Bags" onChange={toggleSubCategory}/> Bags
+            </p>
+            <p className='flex gap-2'> 
               <input className='w-3' type="checkbox" value="Sunglasses" onChange={toggleSubCategory}/> Sunglasses
             </p>
             <p className='flex gap-2'> 
