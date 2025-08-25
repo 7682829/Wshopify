@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext'
 import styles from './Navbar.module.css'
+import { ModeToggle } from './ModeToggle'
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -64,6 +65,9 @@ const Navbar = () => {
             </span>
           )}
         </Link>
+
+        {/* Theme Toggle */}
+        <ModeToggle />
 
         {/* Profile Icon */}
         <div className="relative group">

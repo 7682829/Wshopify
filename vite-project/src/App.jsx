@@ -16,9 +16,11 @@ import { ToastContainer } from 'react-toastify'
 import Verify from './pages/Verify'
 import Wishlist from './pages/Wishlist'
 import ShopContextProvider from './context/ShopContext' // Changed from import { ShopContext }
+import { ThemeProvider } from './components/theme-provider'
 
 const App = () => {
   return (
+    <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
         <ShopContextProvider>
           <ToastContainer/>
@@ -40,6 +42,7 @@ const App = () => {
           <Footer/>
         </ShopContextProvider>
       </div>
+    </ThemeProvider>
   )
 }
 

@@ -49,7 +49,7 @@ export default function About() {
   ];
 
   return (
-    <div className="min-h-screen bg-white w-full">
+    <div className="min-h-screen bg-white dark:bg-black w-full">
       {/* Values */}
       <section className="py-20 px-4 max-w-7xl mx-auto">
         <motion.div
@@ -59,8 +59,8 @@ export default function About() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl mb-4 tracking-wider text-neutral-900">OUR VALUES</h2>
-          <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-5xl mb-4 tracking-wider text-neutral-900 dark:text-white">OUR VALUES</h2>
+          <p className="text-xl text-neutral-600 dark:text-gray-300 max-w-2xl mx-auto">
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
           </p>
         </motion.div>
@@ -76,14 +76,14 @@ export default function About() {
               whileHover={{ y: -10 }}
               className="group"
             >
-              <Card className="p-8 border-0 shadow-md hover:shadow-lg transition-all duration-300 h-full">
+              <Card className="p-8 border-0 shadow-md hover:shadow-lg transition-all duration-300 h-full bg-white dark:bg-black dark:border dark:border-gray-700">
                 <div className="flex items-start space-x-4">
-                  <div className="w-16 h-16 bg-neutral-900 rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
-                    <value.icon className="h-8 w-8 text-white" />
+                  <div className="w-16 h-16 bg-neutral-900 dark:bg-white rounded-full flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <value.icon className="h-8 w-8 text-white dark:text-black" />
                   </div>
                   <div>
-                    <h3 className="text-xl mb-4 tracking-wide text-neutral-900">{value.title}</h3>
-                    <p className="text-neutral-600 leading-relaxed">{value.description}</p>
+                    <h3 className="text-xl mb-4 tracking-wide text-neutral-900 dark:text-white">{value.title}</h3>
+                    <p className="text-neutral-600 dark:text-gray-300 leading-relaxed">{value.description}</p>
                   </div>
                 </div>
               </Card>
@@ -93,7 +93,7 @@ export default function About() {
       </section>
 
       {/* Team */}
-      <section className="py-20 px-4 bg-neutral-50">
+      <section className="py-20 px-4 bg-neutral-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -102,8 +102,8 @@ export default function About() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl mb-4 tracking-wider text-neutral-900">MEET OUR TEAM</h2>
-            <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
+            <h2 className="text-4xl md:text-5xl mb-4 tracking-wider text-neutral-900 dark:text-white">MEET OUR TEAM</h2>
+            <p className="text-xl text-neutral-600 dark:text-gray-300 max-w-2xl mx-auto">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
             </p>
           </motion.div>
@@ -119,7 +119,7 @@ export default function About() {
                 whileHover={{ y: -10 }}
                 className="group text-center"
               >
-                <Card className="p-8 border-0 shadow-md hover:shadow-lg transition-all duration-300">
+                <Card className="p-8 border-0 shadow-md hover:shadow-lg transition-all duration-300 bg-white dark:bg-black dark:border dark:border-gray-700">
                   <div className="relative mb-6">
                     <img
                       src={member.image}
@@ -127,9 +127,9 @@ export default function About() {
                       className="w-32 h-32 rounded-full mx-auto object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
-                  <h3 className="text-xl mb-2 tracking-wide text-neutral-900">{member.name}</h3>
-                  <p className="text-neutral-600 mb-4 tracking-wide uppercase text-sm">{member.role}</p>
-                  <p className="text-neutral-600 leading-relaxed">{member.bio}</p>
+                  <h3 className="text-xl mb-2 tracking-wide text-neutral-900 dark:text-white">{member.name}</h3>
+                  <p className="text-neutral-600 dark:text-gray-300 mb-4 tracking-wide uppercase text-sm">{member.role}</p>
+                  <p className="text-neutral-600 dark:text-gray-300 leading-relaxed">{member.bio}</p>
                 </Card>
               </motion.div>
             ))}
@@ -154,15 +154,15 @@ export default function About() {
               viewport={{ once: true }}
               className="p-6"
             >
-              <div className="text-4xl md:text-5xl mb-2 text-neutral-900 tracking-wide">{stat.number}</div>
-              <div className="text-neutral-600 tracking-wide uppercase text-sm">{stat.label}</div>
+              <div className="text-4xl md:text-5xl mb-2 text-neutral-900 dark:text-white tracking-wide">{stat.number}</div>
+              <div className="text-neutral-600 dark:text-gray-300 tracking-wide uppercase text-sm">{stat.label}</div>
             </motion.div>
           ))}
         </div>
       </section>
 
       {/* Join Section */}
-      <section className="bg-neutral-900 text-white py-32 px-4 text-center">
+      <section className="bg-neutral-900 dark:bg-gray-800 text-white py-32 px-4 text-center">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -171,21 +171,21 @@ export default function About() {
           className="max-w-4xl mx-auto"
         >
           <h2 className="text-4xl md:text-5xl mb-6 tracking-wider">JOIN OUR JOURNEY</h2>
-          <p className="text-xl text-neutral-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-neutral-300 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
             Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 bg-white text-black hover:bg-neutral-100 transition-colors tracking-wide"
+              className="px-8 py-4 bg-white text-black hover:bg-neutral-100 dark:bg-white dark:text-black dark:hover:bg-gray-100 transition-colors tracking-wide"
             >
               EXPLORE COLLECTIONS
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 border border-white text-white hover:bg-white hover:text-black transition-colors tracking-wide"
+              className="px-8 py-4 border border-white text-white hover:bg-white hover:text-black dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black transition-colors tracking-wide"
             >
               CONTACT US
             </motion.button>

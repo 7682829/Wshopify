@@ -15,16 +15,16 @@ const ProductItem = ({id, image, name, price}) => {
     };
 
     return (
-        <Link className='text-gray-700 cursor-pointer relative h-full flex flex-col' to={`/product/${id}`}>
+        <Link className='text-gray-700 dark:text-gray-300 cursor-pointer relative h-full flex flex-col' to={`/product/${id}`}>
             <div className='overflow-hidden aspect-[3/4] mb-3'>
                 <img className='hover:scale-110 transition ease-in-out w-full h-full object-cover' src={image[0]} alt="" />
             </div>
             <button 
                 onClick={handleWishlistClick}
-                className="absolute top-2 right-2 p-2 bg-white/80 rounded-full hover:bg-white"
+                className="absolute top-2 right-2 p-2 bg-white/80 dark:bg-gray-800/80 rounded-full hover:bg-white dark:hover:bg-gray-700"
             >
                 <svg 
-                    className={`w-5 h-5 ${isInWishlist(id) ? 'text-red-500' : 'text-gray-400'}`}
+                    className={`w-5 h-5 ${isInWishlist(id) ? 'text-red-500' : 'text-gray-400 dark:text-gray-500'}`}
                     fill="currentColor" 
                     viewBox="0 0 24 24"
                 >

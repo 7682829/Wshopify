@@ -6,7 +6,7 @@ const BentoGridItem = ({ title, description, backgroundImage, className }) => {
 
   return (
     <motion.div
-      className={`group relative overflow-hidden rounded-2xl cursor-pointer bg-white border border-gray-200 transition-all duration-500 ease-out ${className}`}
+      className={`group relative overflow-hidden rounded-2xl cursor-pointer bg-white dark:bg-black border border-gray-200 dark:border-gray-800 transition-all duration-500 ease-out ${className}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       whileHover={{
@@ -102,7 +102,7 @@ const BentoGrid = () => {
   ];
 
   return (
-    <section className="w-full bg-white py-20">
+    <section className="w-full bg-white dark:bg-black py-20">
       <div className="max-w-[95vw] mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -110,10 +110,10 @@ const BentoGrid = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
             Featured Collections
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Explore our carefully curated selection of premium footwear designed for style and comfort.
           </p>
         </motion.div>
