@@ -89,18 +89,6 @@ const Product = () => {
         </div>
         </div>
       </div>
-
-      {/* ---------- Description & Review Section ------------ */}
-      <div className='mt-20'>
-        <div className='flex'>
-          <b className='border px-5 py-3 text-sm'>Description</b>
-          <p className='border px-5 py-3 text-sm'>Reviews (122)</p>
-        </div>
-        <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
-          <p>E-commerce products.</p>
-          <p>On sale.</p>
-        </div>
-      </div>
       
       { /*----------- display related products --------*/}
 
