@@ -13,15 +13,10 @@ const Navbar = () => {
     token, 
     setToken, 
     setCartItems,
-    getWishlistCount
+    getWishlistCount,
+    logout
   } = useContext(ShopContext);
 
-  const logout = () => {
-    navigate('/login')
-    localStorage.removeItem('token')
-    setToken('')
-    setCartItems({})
-  }
   
   return (
     <div className="bg-white dark:bg-black shadow-sm">

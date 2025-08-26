@@ -19,6 +19,12 @@ const ShopContextProvider = (props) => {
     const [wishlistItems, setWishlistItems] = useState({});
 
     const addToCart = async (itemId, size, subCategory) => {
+        // Check if user is authenticated
+        if (!token) {
+            toast.error('Please login to add items to cart');
+            navigate('/login');
+            return;
+        }
 
         // Check if size is required for this subcategory
         const sizeRequiredCategories = ['Topwear', 'Bottomwear'];
@@ -140,6 +146,19 @@ const ShopContextProvider = (props) => {
         }
     }
 
+    const getUserWishlist = async (token) => {
+        try {
+            const response = await axios.post(backendUrl + '/api/wishlist/get', {}, {headers:{token}})
+            if (response.data.success) {
+                setWishlistItems(response.data.wishlistData)  
+            }
+        } 
+        catch (error) {
+            console.log(error);
+            toast.error(error.message)
+        }
+    }
+
     useEffect(() => {
         getProductsData()
     }, [])
@@ -149,22 +168,74 @@ const ShopContextProvider = (props) => {
         {
             setToken(localStorage.getItem('token'))
             getUserCart(localStorage.getItem('token'))
+            getUserWishlist(localStorage.getItem('token'))
         }
-    },[])
+        if (token) {
+            getUserCart(token)
+            getUserWishlist(token)
+        }
+    },[token])
 
-    const addToWishlist = (itemId) => {
+    const addToWishlist = async (itemId) => {
+        // Check if user is authenticated
+        if (!token) {
+            toast.error('Please login to add items to wishlist');
+            navigate('/login');
+            return;
+        }
+
         setWishlistItems((prev) => ({
             ...prev,
             [itemId]: true
         }));
+
+        if (token) {
+            try {
+                await axios.post(backendUrl + '/api/wishlist/add', {itemId}, {headers:{token}})
+                toast.success('Added to wishlist!')
+            } 
+            catch (error) {
+                console.log(error);
+                toast.error(error.message)
+                // Revert the local state if API call fails
+                setWishlistItems((prev) => {
+                    const newItems = { ...prev };
+                    delete newItems[itemId];
+                    return newItems;
+                });
+            }
+        }
     };
 
-    const removeFromWishlist = (itemId) => {
+    const removeFromWishlist = async (itemId) => {
+        // Check if user is authenticated
+        if (!token) {
+            toast.error('Please login to manage wishlist');
+            navigate('/login');
+            return;
+        }
+
         setWishlistItems((prev) => {
             const newItems = { ...prev };
             delete newItems[itemId];
             return newItems;
         });
+
+        if (token) {
+            try {
+                await axios.post(backendUrl + '/api/wishlist/remove', {itemId}, {headers:{token}})
+                toast.success('Removed from wishlist!')
+            } 
+            catch (error) {
+                console.log(error);
+                toast.error(error.message)
+                // Revert the local state if API call fails
+                setWishlistItems((prev) => ({
+                    ...prev,
+                    [itemId]: true
+                }));
+            }
+        }
     };
 
     const isInWishlist = (itemId) => {
@@ -175,11 +246,19 @@ const ShopContextProvider = (props) => {
         return Object.keys(wishlistItems).length;
     }
 
+    const logout = () => {
+        localStorage.removeItem('token');
+        setToken('');
+        setCartItems({});
+        setWishlistItems({});
+        navigate('/login');
+    }
+
     const value = { 
         products, currency, delivery_fee,
         search, setSearch, showSearch, setShowSearch,
         cartItems, addToCart,setCartItems, getCartCount, updateQuantity, getCartAmount, navigate, backendUrl,
-        setToken, token, wishlistItems, addToWishlist, removeFromWishlist, isInWishlist, getWishlistCount
+        setToken, token, wishlistItems, addToWishlist, removeFromWishlist, isInWishlist, getWishlistCount, logout
 
     };
 
