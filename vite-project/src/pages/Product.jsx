@@ -43,14 +43,14 @@ const Product = () => {
           <div className='flex sm:flex-col overflow-x-auto sm:overflow-y-scroll justify-between sm:justify-normal sm:w-[18.7%] w-full'>
             {
               productData.image.map ((item,index)=>(
-                <img onClick={()=>setImage(item)}  src={item} key={index} className='w-[24%] sm:w-full sm:mb-3 flex-shrink-0 cursor-pointer' alt="" />
+                <img onClick={()=>setImage(item)}  src={item} key={index} className='w-[24%] sm:w-full sm:mb-3 flex-shrink-0 cursor-pointer rounded-lg hover:opacity-80 transition-opacity duration-200' alt="" />
 
               ))
             }
 
           </div>
           <div className='w-full sm:w-[80%]'>
-            <img className='w-full h-auto' src={image} alt="" />  
+            <img className='w-full h-auto rounded-lg' src={image} alt="" />  
 
           </div>
         </div>
@@ -73,13 +73,17 @@ const Product = () => {
               <p>Select Size</p>
               <div className='flex gap-2'>
                 {productData.sizes.map((item,index)=>(
-                  <button onClick={()=>setSize(item)} className={`border py-2 px-4 bg-gray-100 ${item === size ? 'border-orange-500' : ''}`}
+                  <button onClick={()=>setSize(item)} className={`border py-2 px-4 rounded-md transition-colors duration-200 ${
+                    item === size 
+                      ? 'border-orange-500 bg-orange-500 text-white' 
+                      : 'border-gray-300 bg-white dark:bg-gray-700 dark:border-gray-600 text-gray-800 dark:text-gray-200 hover:border-orange-400 hover:bg-orange-50 dark:hover:bg-gray-600'
+                  }`}
                   key={index}>{item}</button>
                 ))}
               </div>
             </div>
           )}
-        <button onClick={() => addToCart(productData._id, size, productData.subCategory)} className={`bg-black text-white px-8 py-3 text-sm active:bg-gray-700 ${(productData.subCategory !== 'Topwear' && productData.subCategory !== 'Bottomwear') ? 'mt-8' : ''}`}>ADD TO CART</button>
+        <button onClick={() => addToCart(productData._id, size, productData.subCategory)} className={`bg-black dark:bg-white text-white dark:text-black px-8 py-3 text-sm font-medium rounded-lg border-2 border-black dark:border-white hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors duration-200 ${(productData.subCategory !== 'Topwear' && productData.subCategory !== 'Bottomwear') ? 'mt-8' : ''}`}>ADD TO CART</button>
         <hr className='mt-8 sm:w-4/5'/>
         <div className='text-sm text-gray-500 mt-5  flex flex-col gap-1'>
           <p>100% Original product.</p>

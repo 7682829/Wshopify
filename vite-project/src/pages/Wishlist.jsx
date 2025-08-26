@@ -29,6 +29,8 @@ const Wishlist = () => {
               image={product.image}
               name={product.name}
               price={product.price}
+              subCategory={product.subCategory}
+              sizes={product.sizes}
             />
           ))}
         </div>
