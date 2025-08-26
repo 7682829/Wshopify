@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ShopContext } from '../context/ShopContext';
-import ProductItem from '../components/ProductItem';
+import WishlistItem from '../components/WishlistItem';
 
 const Wishlist = () => {
   const { 
@@ -23,14 +23,12 @@ const Wishlist = () => {
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {wishlistProducts.map(product => (
-            <ProductItem 
+            <WishlistItem 
               key={product._id} 
               id={product._id}
               image={product.image}
               name={product.name}
               price={product.price}
-              onRemoveFromWishlist={() => removeFromWishlist(product.id)}
-              isInWishlist={true}
             />
           ))}
         </div>
