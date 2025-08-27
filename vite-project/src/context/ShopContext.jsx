@@ -175,12 +175,23 @@ const ShopContextProvider = (props) => {
         return Object.keys(wishlistItems).length;
     }
 
+
+    // Logout function
+    const logout = () => {
+        localStorage.removeItem('token');
+        setToken('');
+        setCartItems({});
+        setWishlistItems({});
+        toast.success('Logged out successfully!');
+        navigate('/login');
+    };
+
     const value = { 
         products, currency, delivery_fee,
         search, setSearch, showSearch, setShowSearch,
         cartItems, addToCart,setCartItems, getCartCount, updateQuantity, getCartAmount, navigate, backendUrl,
-        setToken, token, wishlistItems, addToWishlist, removeFromWishlist, isInWishlist, getWishlistCount
-
+        setToken, token, wishlistItems, addToWishlist, removeFromWishlist, isInWishlist, getWishlistCount,
+        logout
     };
 
     return (
