@@ -19,6 +19,11 @@ const ShopContextProvider = (props) => {
     const [wishlistItems, setWishlistItems] = useState({});
 
     const addToCart = async (itemId, size, subCategory) => {
+        if (!token) {
+            toast.error('Log In to add to cart');
+            navigate('/login');
+            return;
+        }
 
         // Check if size is required for this subcategory
         const sizeRequiredCategories = ['Topwear', 'Bottomwear'];
@@ -48,16 +53,12 @@ const ShopContextProvider = (props) => {
         }
         setCartItems(cartData);
 
-        if (token) {
-            try {
-
-                await axios.post(backendUrl + '/api/cart/add', {itemId, size: finalSize}, {headers:{token}})
-                
-            } 
-            catch (error) {
-                console.log(error);
-                toast.error(error.message)
-            }
+        try {
+            await axios.post(backendUrl + '/api/cart/add', {itemId, size: finalSize}, {headers:{token}})
+        } 
+        catch (error) {
+            console.log(error);
+            toast.error(error.message)
         }
     }
 
@@ -153,6 +154,11 @@ const ShopContextProvider = (props) => {
     },[])
 
     const addToWishlist = (itemId) => {
+        if (!token) {
+            toast.error('Log In to add to wishlist');
+            navigate('/login');
+            return;
+        }
         setWishlistItems((prev) => ({
             ...prev,
             [itemId]: true
