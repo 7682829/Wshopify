@@ -14,7 +14,7 @@ const ShopContextProvider = (props) => {
     const [showSearch, setShowSearch] = useState(false);
     const [cartItems,setCartItems] = useState({}); 
     const [products, setProducts] = useState([]); 
-    const [token, setToken] = useState('');
+    const [token, setToken] = useState(localStorage.getItem('token') || '');
     const navigate = useNavigate();
     const [wishlistItems, setWishlistItems] = useState({});
 
