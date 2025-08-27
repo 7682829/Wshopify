@@ -16,34 +16,42 @@ const ShopContextProvider = (props) => {
     const [products, setProducts] = useState([]); 
     const [token, setToken] = useState('');
     const navigate = useNavigate();
+    const [wishlistItems, setWishlistItems] = useState({});
 
-    const addToCart = async (itemId, size) => {
+    const addToCart = async (itemId, size, subCategory) => {
 
-        if (!size) {
-            toast.error('Please Select Product Size ');
+        // Check if size is required for this subcategory
+        const sizeRequiredCategories = ['Topwear', 'Bottomwear'];
+        const isSizeRequired = sizeRequiredCategories.includes(subCategory);
+
+        if (isSizeRequired && !size) {
+            toast.error('Please Select Product Size');
             return;
         }
+
+        // If size is not required, set a default size
+        const finalSize = size || 'One Size';
 
         let cartData = structuredClone(cartItems);
 
         if (cartData[itemId]) {
-            if (cartData[itemId][size]) {
-                cartData[itemId][size]+=1 
+            if (cartData[itemId][finalSize]) {
+                cartData[itemId][finalSize]+=1 
             } 
             else{
-                cartData[itemId][size] = 1;
+                cartData[itemId][finalSize] = 1;
             }
         }
         else {
             cartData[itemId] = {};
-            cartData[itemId][size] = 1;
+            cartData[itemId][finalSize] = 1;
         }
         setCartItems(cartData);
 
         if (token) {
             try {
 
-                await axios.post(backendUrl + '/api/cart/add', {itemId, size}, {headers:{token}})
+                await axios.post(backendUrl + '/api/cart/add', {itemId, size: finalSize}, {headers:{token}})
                 
             } 
             catch (error) {
@@ -144,14 +152,36 @@ const ShopContextProvider = (props) => {
         }
     },[])
 
+    const addToWishlist = (itemId) => {
+        setWishlistItems((prev) => ({
+            ...prev,
+            [itemId]: true
+        }));
+    };
+
+    const removeFromWishlist = (itemId) => {
+        setWishlistItems((prev) => {
+            const newItems = { ...prev };
+            delete newItems[itemId];
+            return newItems;
+        });
+    };
+
+    const isInWishlist = (itemId) => {
+        return wishlistItems[itemId] ? true : false;
+    };
+
+    const getWishlistCount = () => {
+        return Object.keys(wishlistItems).length;
+    }
 
     const value = { 
         products, currency, delivery_fee,
         search, setSearch, showSearch, setShowSearch,
         cartItems, addToCart,setCartItems, getCartCount, updateQuantity, getCartAmount, navigate, backendUrl,
-        setToken, token 
+        setToken, token, wishlistItems, addToWishlist, removeFromWishlist, isInWishlist, getWishlistCount
 
-    }
+    };
 
     return (
         <ShopContext.Provider value={value}>

@@ -13,10 +13,10 @@ const LatestCollection = () => {
     },[products])
 
   return (
-    <div className='my-10'>
+    <div className='my-10 bg-white dark:bg-black'>
         <div className='text-center py-8 text-3xl'>
             <Title text1={'LATEST '} text2={'COLLECTIONS'}/>
-            <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
+            <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600 dark:text-gray-300'>
             This is a Sample Text written just to check what it would look like on the website
             </p>
         </div>

@@ -15,10 +15,10 @@ const BestSeller = () => {
         
 
   return (
-    <div className='my-10'>
+    <div className='my-10 bg-white dark:bg-black'>
         <div className='text-center text-3xl py-8'>
             <Title text1={'Best '} text2={'Sellers'}/>
-            <p className='w-3/4 m-auto text-xs sm:text-sm  md:text-base text-gray-600'>
+            <p className='w-3/4 m-auto text-xs sm:text-sm  md:text-base text-gray-600 dark:text-gray-300'>
             Another line of sample text to see what it looks like on the website
             </p>
         </div>
