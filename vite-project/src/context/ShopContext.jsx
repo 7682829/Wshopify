@@ -55,6 +55,7 @@ const ShopContextProvider = (props) => {
 
         try {
             await axios.post(backendUrl + '/api/cart/add', {itemId, size: finalSize}, {headers:{token}})
+            toast.success('Added to cart');
         } 
         catch (error) {
             console.log(error);
@@ -163,6 +164,7 @@ const ShopContextProvider = (props) => {
             ...prev,
             [itemId]: true
         }));
+        toast.success('Added to wishlist');
     };
 
     const removeFromWishlist = (itemId) => {
@@ -171,6 +173,22 @@ const ShopContextProvider = (props) => {
             delete newItems[itemId];
             return newItems;
         });
+        toast.success('Removed from wishlist');
+    };
+
+    // Remove from cart utility
+    const removeFromCart = (itemId, size) => {
+        setCartItems((prev) => {
+            const newCart = { ...prev };
+            if (newCart[itemId] && newCart[itemId][size]) {
+                delete newCart[itemId][size];
+                if (Object.keys(newCart[itemId]).length === 0) {
+                    delete newCart[itemId];
+                }
+            }
+            return newCart;
+        });
+        toast.success('Removed from cart');
     };
 
     const isInWishlist = (itemId) => {
@@ -195,7 +213,7 @@ const ShopContextProvider = (props) => {
     const value = { 
         products, currency, delivery_fee,
         search, setSearch, showSearch, setShowSearch,
-        cartItems, addToCart,setCartItems, getCartCount, updateQuantity, getCartAmount, navigate, backendUrl,
+        cartItems, addToCart, removeFromCart, setCartItems, getCartCount, updateQuantity, getCartAmount, navigate, backendUrl,
         setToken, token, wishlistItems, addToWishlist, removeFromWishlist, isInWishlist, getWishlistCount,
         logout
     };
