@@ -1,7 +1,15 @@
 import React from 'react'
 import { assets } from '../assets/assets/frontend_assets/assets'
+import { useNavigate } from 'react-router-dom'
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    window.scrollTo(0, 0);
+    navigate(path);
+  };
+
   return (
     <footer className="w-full bg-white dark:bg-black mt-32">
       <div className="container max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">
@@ -9,7 +17,7 @@ const Footer = () => {
 
           {/* Logo & About */}
           <div>
-            <img src={assets.logo} className="mb-5 w-32" alt="Logo" />
+            <h1 className="mb-5 text-3xl font-semibold text-gray-900 dark:text-white">AURÉLINE</h1>
             <p className="w-full md:w-2/3 text-gray-600 dark:text-gray-300 leading-relaxed">
               сука блять!
             </p>
@@ -21,10 +29,16 @@ const Footer = () => {
               Company
             </p>
             <ul className="flex flex-col gap-2 text-gray-600 dark:text-gray-300">
-              <li className="hover:text-gray-900 dark:hover:text-white cursor-pointer transition">
+              <li 
+                className="hover:text-gray-900 dark:hover:text-white cursor-pointer transition"
+                onClick={() => handleNavigation('/')}
+              >
                 Home
               </li>
-              <li className="hover:text-gray-900 dark:hover:text-white cursor-pointer transition">
+              <li 
+                className="hover:text-gray-900 dark:hover:text-white cursor-pointer transition"
+                onClick={() => handleNavigation('/about')}
+              >
                 About Us
               </li>
               <li className="hover:text-gray-900 dark:hover:text-white cursor-pointer transition">

@@ -2,8 +2,16 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaAward, FaUsers, FaHeart, FaGlobe } from 'react-icons/fa';
 import { Card } from '../components/ui/card';
+import { useNavigate } from 'react-router-dom';
 
 export default function About() {
+  const navigate = useNavigate();
+
+  const handleNavigation = (path) => {
+    window.scrollTo(0, 0);
+    navigate(path);
+  };
+
   const values = [
     {
       icon: FaHeart,
@@ -179,6 +187,7 @@ export default function About() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-white text-black hover:bg-neutral-100 dark:bg-white dark:text-black dark:hover:bg-gray-100 transition-colors tracking-wide"
+              onClick={() => handleNavigation('/collection')}
             >
               EXPLORE COLLECTIONS
             </motion.button>
@@ -186,6 +195,7 @@ export default function About() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 border border-white text-white hover:bg-white hover:text-black dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black transition-colors tracking-wide"
+              onClick={() => handleNavigation('/contact')}
             >
               CONTACT US
             </motion.button>
